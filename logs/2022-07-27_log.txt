@@ -1,0 +1,771 @@
+2022-07-27T18:03:39.304Z , opened
+2022-07-27T18:03:39.310Z , best bid and ask not ready
+2022-07-27T18:03:39.502Z , best bid and ask not ready
+2022-07-27T18:03:39.680Z , best bid and ask not ready
+2022-07-27T18:03:39.843Z , best bid and ask not ready
+2022-07-27T18:03:39.849Z , get new positions
+2022-07-27T18:03:40.061Z , active positions:
+2022-07-27T18:03:40.066Z , {'AVAX-USD': Decimal('-19.2'), 'ETH-USD': Decimal('-0.07'), 'LTC-USD': Decimal('2'), 'SOL-USD': Decimal('30')}
+2022-07-27T18:03:40.068Z , trade size for this hour:
+2022-07-27T18:03:40.073Z , {'ETH-USD': Decimal('0.09'), 'AVAX-USD': Decimal('29.2'), 'SOL-USD': Decimal('-40'), 'LTC-USD': Decimal('-4')}
+2022-07-27T18:03:40.083Z , start trading, cancel all existing orders:
+2022-07-27T18:03:40.441Z , there are 3 active orders
+2022-07-27T18:03:40.676Z , cancelling all orders...
+2022-07-27T18:03:40.688Z , LIMIT order created: 287f17f91419b92c6d5b582f23127204f291a0e1e218438b1599555a0f15bc8 market: AVAX-USD side: BUY price: 20.04 amount: 25.2
+2022-07-27T18:03:40.694Z , LIMIT order created: 435699122bbf2a4d9347c33b9195eb12a4bf309f21653f06e26ccc588c778fd market: ETH-USD side: BUY price: 1509.6 amount: 0.09
+2022-07-27T18:03:40.696Z , LIMIT order created: 783fb9d1fe020ff9a62fc6603abeefd06bfab3484ca3ebde6bed1fdb3a29d08 market: LTC-USD side: SELL price: 52.9 amount: 4
+2022-07-27T18:03:40.701Z , get new positions
+2022-07-27T18:03:40.909Z , active positions:
+2022-07-27T18:03:40.929Z , {'AVAX-USD': Decimal('-19.2'), 'ETH-USD': Decimal('-0.07'), 'LTC-USD': Decimal('2'), 'SOL-USD': Decimal('30')}
+2022-07-27T18:03:40.936Z , trade size for this hour:
+2022-07-27T18:03:40.950Z , {'ETH-USD': Decimal('0.09'), 'AVAX-USD': Decimal('29.2'), 'SOL-USD': Decimal('-40'), 'LTC-USD': Decimal('-4')}
+2022-07-27T18:03:40.954Z , start trading, cancel all existing orders:
+2022-07-27T18:03:41.166Z , there are 0 active orders
+2022-07-27T18:03:41.169Z , ETH-USD's order with starting price 1510.0 and amount0.09 is buy order, fill it
+2022-07-27T18:03:41.175Z , AVAX-USD's order with starting price 20.13 and amount29.2 is buy order, fill it
+2022-07-27T18:03:41.177Z , SOL-USD's order with starting price 35.633 and amount-40 is sell order, fill it
+2022-07-27T18:03:41.182Z , LTC-USD's order with starting price 52.9 and amount-4 is sell order, fill it
+2022-07-27T18:03:41.185Z , the long required amount is 723.696
+2022-07-27T18:03:41.190Z , the short required amount is 1636.920
+2022-07-27T18:03:41.192Z , the total amount required to be filled is 2360.616
+2022-07-27T18:03:41.198Z , the inital dollar slippage allowed is 0.7081848
+2022-07-27T18:03:41.200Z , there are 723.696 long left and 1636.920 short left
+2022-07-27T18:03:41.206Z , there are 30.65708272755925% long left and 69.34291727244076% short left
+2022-07-27T18:03:41.209Z , long slippage allowrance is 17.545727676092827% of total dollar slippage and short slippage allowrance is 82.45427232390718% of total dollar slippage
+2022-07-27T18:03:41.214Z , total slippage allowed is 0.7081848$ long slippage allowrance is 0.12425617645148264$ and short slippage allowrance is 0.5839286235485174$
+2022-07-27T18:03:41.217Z , long slippage allowrance is 0.017169664672940385% and short slippage allowrance is 0.03567239837918269%
+2022-07-27T18:03:41.222Z , the slippage premium is 0.0016
+2022-07-27T18:03:41.422Z , the buy order price is 0.001428303353270596 away from start price
+2022-07-27T18:03:41.429Z , the buy order of AVAX-USD has a starting price of 20.13,and a order price of 20.10124825349866289933832615
+2022-07-27T18:03:41.431Z , order price 20.10124825349866289933832615 is less than buy price20.23, place limit buy order of AVAX-USD with price 20.09722800384796316675845848
+2022-07-27T18:03:41.964Z , the buy order price is 0.001428303353270596 away from start price
+2022-07-27T18:03:41.972Z , the buy order of ETH-USD has a starting price of 1510.0,and a order price of 1507.843261936561399801334947
+2022-07-27T18:03:41.975Z , order price 1507.843261936561399801334947 is less than buy price1510.1, place limit buy order of ETH-USD with price 1507.541693284174087521374680
+2022-07-27T18:03:42.546Z , the sell order price is 0.001243276016208173 away from start price
+2022-07-27T18:03:42.552Z , the sell order of SOL-USD has a starting price of 35.633,and a order price of 35.67730165428554583059090631
+2022-07-27T18:03:42.555Z , order price 35.67730165428554583059090631 is more than sell price35.533, place limit sell order of SOL-USD with price 35.68443711461640293975702449
+2022-07-27T18:03:43.262Z , the sell order price is 0.001243276016208173 away from start price
+2022-07-27T18:03:43.271Z , the sell order of LTC-USD has a starting price of 52.9,and a order price of 52.96576930125741235479075418
+2022-07-27T18:03:43.277Z , order price 52.96576930125741235479075418 is more than sell price52.8, place limit sell order of LTC-USD with price 52.97636245511766383726171233
+2022-07-27T18:03:43.603Z , LIMIT order cancelled: 287f17f91419b92c6d5b582f23127204f291a0e1e218438b1599555a0f15bc8 market: AVAX-USD side: BUY price: 20.04 amount: 25.2, reason: USER_CANCELED
+2022-07-27T18:03:43.615Z , LIMIT order cancelled: 435699122bbf2a4d9347c33b9195eb12a4bf309f21653f06e26ccc588c778fd market: ETH-USD side: BUY price: 1509.6 amount: 0.09, reason: USER_CANCELED
+2022-07-27T18:03:43.618Z , LIMIT order cancelled: 783fb9d1fe020ff9a62fc6603abeefd06bfab3484ca3ebde6bed1fdb3a29d08 market: LTC-USD side: SELL price: 52.9 amount: 4, reason: USER_CANCELED
+2022-07-27T18:03:43.625Z , LIMIT order creating: 67a098b70c0c55e90ef1772f51284d4cdb54310327ee94bf496fa7965acdba8 market: AVAX-USD side: BUY price: 20.1 amount: 29.2
+2022-07-27T18:03:43.629Z , LIMIT order created: 67a098b70c0c55e90ef1772f51284d4cdb54310327ee94bf496fa7965acdba8 market: AVAX-USD side: BUY price: 20.1 amount: 29.2
+2022-07-27T18:03:43.637Z , LIMIT order creating: 6cc5c5bc5dc0f5e7bf6e862c8b96e0ea075f471c9f348cd690f3d8cafeaaeb9 market: ETH-USD side: BUY price: 1507.5 amount: 0.09
+2022-07-27T18:03:43.641Z , LIMIT order created: 6cc5c5bc5dc0f5e7bf6e862c8b96e0ea075f471c9f348cd690f3d8cafeaaeb9 market: ETH-USD side: BUY price: 1507.5 amount: 0.09
+2022-07-27T18:03:43.649Z , LIMIT order creating: 398cc8c0d536054c07e23b60c6ae39c2b9ffaaac5d44be25d172a85802d4187 market: SOL-USD side: SELL price: 35.684 amount: 40
+2022-07-27T18:03:43.653Z , LIMIT order created: 398cc8c0d536054c07e23b60c6ae39c2b9ffaaac5d44be25d172a85802d4187 market: SOL-USD side: SELL price: 35.684 amount: 40
+2022-07-27T18:03:43.660Z , LIMIT order creating: 36ac8e31bd05805ba1e980dd4371f0e4ab57ac8a208a7c710807f2565fcf317 market: LTC-USD side: SELL price: 53 amount: 4
+2022-07-27T18:03:43.664Z , LIMIT order created: 36ac8e31bd05805ba1e980dd4371f0e4ab57ac8a208a7c710807f2565fcf317 market: LTC-USD side: SELL price: 53 amount: 4
+2022-07-27T18:03:53.675Z , 
+2022-07-27T18:04:06.602Z:  opened
+2022-07-27T18:04:06.618Z:  best bid and ask not ready
+2022-07-27T18:04:06.829Z:  best bid and ask not ready
+2022-07-27T18:04:06.999Z:  best bid and ask not ready
+2022-07-27T18:04:07.169Z:  best bid and ask not ready
+2022-07-27T18:04:07.180Z:  get new positions
+2022-07-27T18:04:07.396Z:  active positions:
+2022-07-27T18:04:07.425Z:  {'AVAX-USD': Decimal('-19.2'), 'ETH-USD': Decimal('-0.07'), 'LTC-USD': Decimal('2'), 'SOL-USD': Decimal('30')}
+2022-07-27T18:04:07.433Z:  trade size for this hour:
+2022-07-27T18:04:07.444Z:  {'ETH-USD': Decimal('0.09'), 'AVAX-USD': Decimal('29.2'), 'SOL-USD': Decimal('-40'), 'LTC-USD': Decimal('-4')}
+2022-07-27T18:04:07.448Z:  start trading, cancel all existing orders:
+2022-07-27T18:04:07.671Z:  there are 4 active orders
+2022-07-27T18:04:07.945Z:  cancelling all orders...
+2022-07-27T18:04:07.969Z:  LIMIT order created: 67a098b70c0c55e90ef1772f51284d4cdb54310327ee94bf496fa7965acdba8 market: AVAX-USD side: BUY price: 20.1 amount: 29.2
+2022-07-27T18:04:07.971Z:  LIMIT order created: 6cc5c5bc5dc0f5e7bf6e862c8b96e0ea075f471c9f348cd690f3d8cafeaaeb9 market: ETH-USD side: BUY price: 1507.5 amount: 0.09
+2022-07-27T18:04:07.977Z:  LIMIT order created: 398cc8c0d536054c07e23b60c6ae39c2b9ffaaac5d44be25d172a85802d4187 market: SOL-USD side: SELL price: 35.684 amount: 40
+2022-07-27T18:04:07.979Z:  LIMIT order created: 36ac8e31bd05805ba1e980dd4371f0e4ab57ac8a208a7c710807f2565fcf317 market: LTC-USD side: SELL price: 53 amount: 4
+2022-07-27T18:04:07.985Z:  get new positions
+2022-07-27T18:04:08.227Z:  active positions:
+2022-07-27T18:04:08.240Z:  {'AVAX-USD': Decimal('-19.2'), 'ETH-USD': Decimal('-0.07'), 'LTC-USD': Decimal('2'), 'SOL-USD': Decimal('30')}
+2022-07-27T18:04:08.242Z:  trade size for this hour:
+2022-07-27T18:04:08.248Z:  {'ETH-USD': Decimal('0.09'), 'AVAX-USD': Decimal('29.2'), 'SOL-USD': Decimal('-40'), 'LTC-USD': Decimal('-4')}
+2022-07-27T18:04:08.251Z:  start trading, cancel all existing orders:
+2022-07-27T18:04:08.500Z:  there are 0 active orders
+2022-07-27T18:04:08.516Z:  ETH-USD's order with starting price 1510.0 and amount0.09 is buy order, fill it
+2022-07-27T18:04:08.519Z:  AVAX-USD's order with starting price 20.13 and amount29.2 is buy order, fill it
+2022-07-27T18:04:08.524Z:  SOL-USD's order with starting price 35.633 and amount-40 is sell order, fill it
+2022-07-27T18:04:08.527Z:  LTC-USD's order with starting price 52.9 and amount-4 is sell order, fill it
+2022-07-27T18:04:08.532Z:  the long required amount is 723.696
+2022-07-27T18:04:08.535Z:  the short required amount is 1636.920
+2022-07-27T18:04:08.540Z:  the total amount required to be filled is 2360.616
+2022-07-27T18:04:08.542Z:  the inital dollar slippage allowed is 0.7081848
+2022-07-27T18:04:08.548Z:  there are 723.696 long left and 1636.920 short left
+2022-07-27T18:04:08.550Z:  there are 30.65708272755925% long left and 69.34291727244076% short left
+2022-07-27T18:04:08.556Z:  long slippage allowrance is 17.545727676092827% of total dollar slippage and short slippage allowrance is 82.45427232390718% of total dollar slippage
+2022-07-27T18:04:08.562Z:  total slippage allowed is 0.7081848$ long slippage allowrance is 0.12425617645148264$ and short slippage allowrance is 0.5839286235485174$
+2022-07-27T18:04:08.564Z:  long slippage allowrance is 0.017169664672940385% and short slippage allowrance is 0.03567239837918269%
+2022-07-27T18:04:08.570Z:  the slippage premium is 0.0016
+2022-07-27T18:04:08.945Z:  the buy order price is 0.001428303353270596 away from start price
+2022-07-27T18:04:08.959Z:  the buy order of AVAX-USD has a starting price of 20.13,and a order price of 20.10124825349866289933832615
+2022-07-27T18:04:08.962Z:  order price 20.10124825349866289933832615 is less than buy price20.23, place limit buy order of AVAX-USD with price 20.09722800384796316675845848
+2022-07-27T18:04:09.513Z:  the buy order price is 0.001428303353270596 away from start price
+2022-07-27T18:04:09.521Z:  the buy order of ETH-USD has a starting price of 1510.0,and a order price of 1507.843261936561399801334947
+2022-07-27T18:04:09.526Z:  order price 1507.843261936561399801334947 is less than buy price1510.1, place limit buy order of ETH-USD with price 1507.541693284174087521374680
+2022-07-27T18:04:10.060Z:  the sell order price is 0.001243276016208173 away from start price
+2022-07-27T18:04:10.073Z:  the sell order of SOL-USD has a starting price of 35.633,and a order price of 35.67730165428554583059090631
+2022-07-27T18:04:10.077Z:  order price 35.67730165428554583059090631 is more than sell price35.533, place limit sell order of SOL-USD with price 35.68443711461640293975702449
+2022-07-27T18:04:10.666Z:  the sell order price is 0.001243276016208173 away from start price
+2022-07-27T18:04:10.674Z:  the sell order of LTC-USD has a starting price of 52.9,and a order price of 52.96576930125741235479075418
+2022-07-27T18:04:10.677Z:  order price 52.96576930125741235479075418 is more than sell price52.8, place limit sell order of LTC-USD with price 52.97636245511766383726171233
+2022-07-27T18:04:11.010Z:  LIMIT order cancelled: 67a098b70c0c55e90ef1772f51284d4cdb54310327ee94bf496fa7965acdba8 market: AVAX-USD side: BUY price: 20.1 amount: 29.2, reason: USER_CANCELED
+2022-07-27T18:04:11.023Z:  LIMIT order cancelled: 6cc5c5bc5dc0f5e7bf6e862c8b96e0ea075f471c9f348cd690f3d8cafeaaeb9 market: ETH-USD side: BUY price: 1507.5 amount: 0.09, reason: USER_CANCELED
+2022-07-27T18:04:11.026Z:  LIMIT order cancelled: 398cc8c0d536054c07e23b60c6ae39c2b9ffaaac5d44be25d172a85802d4187 market: SOL-USD side: SELL price: 35.684 amount: 40, reason: USER_CANCELED
+2022-07-27T18:04:11.032Z:  LIMIT order cancelled: 36ac8e31bd05805ba1e980dd4371f0e4ab57ac8a208a7c710807f2565fcf317 market: LTC-USD side: SELL price: 53 amount: 4, reason: USER_CANCELED
+2022-07-27T18:04:11.036Z:  LIMIT order creating: 61fcd5f8ed148dc73b680f1934b766c5c553eabac0aa289b4c6c311e85526f3 market: AVAX-USD side: BUY price: 20.1 amount: 29.2
+2022-07-27T18:04:11.042Z:  LIMIT order created: 61fcd5f8ed148dc73b680f1934b766c5c553eabac0aa289b4c6c311e85526f3 market: AVAX-USD side: BUY price: 20.1 amount: 29.2
+2022-07-27T18:04:11.045Z:  LIMIT order creating: 541c242cfbf2a33959b7d15d27e832b06faf99cc3ec55e1cdd80e46bcca0bd5 market: ETH-USD side: BUY price: 1507.5 amount: 0.09
+2022-07-27T18:04:11.052Z:  LIMIT order created: 541c242cfbf2a33959b7d15d27e832b06faf99cc3ec55e1cdd80e46bcca0bd5 market: ETH-USD side: BUY price: 1507.5 amount: 0.09
+2022-07-27T18:04:11.055Z:  LIMIT order creating: 15b5af9799478eb0b3931d678e6bca44f8e2baec66bbb6f3a89de04757cc02a market: SOL-USD side: SELL price: 35.684 amount: 40
+2022-07-27T18:04:11.061Z:  LIMIT order created: 15b5af9799478eb0b3931d678e6bca44f8e2baec66bbb6f3a89de04757cc02a market: SOL-USD side: SELL price: 35.684 amount: 40
+2022-07-27T18:04:11.064Z:  LIMIT order creating: 7244b6fdf616c3d5e08bb72315c6266ca057ef3d9a63e650c183b6274774a78 market: LTC-USD side: SELL price: 53 amount: 4
+2022-07-27T18:04:11.071Z:  LIMIT order created: 7244b6fdf616c3d5e08bb72315c6266ca057ef3d9a63e650c183b6274774a78 market: LTC-USD side: SELL price: 53 amount: 4
+2022-07-27T18:05:01.685Z:  MARKET order creating: 097b7b04e92085bcd530abc7256af98739cb8753183a06845582beec931886f market: AVAX-USD side: BUY price: 23.15 amount: 1
+2022-07-27T18:05:01.731Z:  MARKET order filled: 097b7b04e92085bcd530abc7256af98739cb8753183a06845582beec931886f market: AVAX-USD side: BUY price: 23.15 amount: 1, remaining size: 0
+2022-07-27T18:05:01.739Z:  old slippage allowrance is 0.7081848
+2022-07-27T18:05:01.742Z:  'order_id'
+2022-07-27T18:05:01.748Z:  'order_id'
+2022-07-27T18:05:01.751Z:  'order_id'
+2022-07-27T18:05:54.536Z:  opened
+2022-07-27T18:05:54.563Z:  best bid and ask not ready
+2022-07-27T18:05:54.753Z:  best bid and ask not ready
+2022-07-27T18:05:54.921Z:  best bid and ask not ready
+2022-07-27T18:05:55.095Z:  best bid and ask not ready
+2022-07-27T18:05:55.103Z:  get new positions
+2022-07-27T18:05:55.324Z:  active positions:
+2022-07-27T18:05:55.330Z:  {'AVAX-USD': Decimal('-20.2'), 'ETH-USD': Decimal('-0.07'), 'LTC-USD': Decimal('2'), 'SOL-USD': Decimal('30')}
+2022-07-27T18:05:55.333Z:  trade size for this hour:
+2022-07-27T18:05:55.339Z:  {'ETH-USD': Decimal('0.09'), 'AVAX-USD': Decimal('30.2'), 'SOL-USD': Decimal('-40'), 'LTC-USD': Decimal('-4')}
+2022-07-27T18:05:55.341Z:  start trading, cancel all existing orders:
+2022-07-27T18:05:55.555Z:  there are 0 active orders
+2022-07-27T18:05:55.564Z:  ETH-USD's order with starting price 1522.1 and amount0.09 is buy order, fill it
+2022-07-27T18:05:55.567Z:  AVAX-USD's order with starting price 20.13 and amount30.2 is buy order, fill it
+2022-07-27T18:05:55.572Z:  SOL-USD's order with starting price 35.633 and amount-40 is sell order, fill it
+2022-07-27T18:05:55.575Z:  LTC-USD's order with starting price 52.9 and amount-4 is sell order, fill it
+2022-07-27T18:05:55.581Z:  the long required amount is 744.915
+2022-07-27T18:05:55.583Z:  the short required amount is 1636.920
+2022-07-27T18:05:55.588Z:  the total amount required to be filled is 2381.835
+2022-07-27T18:05:55.591Z:  the inital dollar slippage allowed is 0.7145505
+2022-07-27T18:05:55.597Z:  there are 744.915 long left and 1636.920 short left
+2022-07-27T18:05:55.599Z:  there are 31.274836418139795% long left and 68.7251635818602% short left
+2022-07-27T18:05:55.605Z:  long slippage allowrance is 18.272205190777363% of total dollar slippage and short slippage allowrance is 81.72779480922263% of total dollar slippage
+2022-07-27T18:05:55.608Z:  total slippage allowed is 0.7145505$ long slippage allowrance is 0.1305641335517256$ and short slippage allowrance is 0.5839863664482744$
+2022-07-27T18:05:55.613Z:  long slippage allowrance is 0.01752738682288927% and short slippage allowrance is 0.03567592591258427%
+2022-07-27T18:05:55.616Z:  the slippage premium is 0.0016
+2022-07-27T18:05:55.830Z:  the buy order price is 0.0014247261317711073 away from start price
+2022-07-27T18:05:55.833Z:  the buy order of AVAX-USD has a starting price of 20.13,and a order price of 20.10132026296744761010415971
+2022-07-27T18:05:55.841Z:  order price 20.10132026296744761010415971 is less than buy price20.23, place limit buy order of AVAX-USD with price 20.09729999891485412058213888
+2022-07-27T18:05:56.396Z:  the buy order price is 0.0014247261317711073 away from start price
+2022-07-27T18:05:56.410Z:  the buy order of ETH-USD has a starting price of 1522.1,and a order price of 1519.931424354831197582689592
+2022-07-27T18:05:56.413Z:  order price 1519.931424354831197582689592 is less than buy price1522.2, place limit buy order of ETH-USD with price 1519.627438069960231343173054
+2022-07-27T18:05:56.950Z:  the sell order price is 0.0012432407408741572 away from start price
+2022-07-27T18:05:56.960Z:  the sell order of SOL-USD has a starting price of 35.633,and a order price of 35.67730039731956884794319335
+2022-07-27T18:05:56.966Z:  order price 35.67730039731956884794319335 is more than sell price35.533, place limit sell order of SOL-USD with price 35.68443585739903276171278199
+2022-07-27T18:05:57.481Z:  the sell order price is 0.0012432407408741572 away from start price
+2022-07-27T18:05:57.503Z:  the sell order of LTC-USD has a starting price of 52.9,and a order price of 52.96576743519224292246498830
+2022-07-27T18:05:57.512Z:  order price 52.96576743519224292246498830 is more than sell price52.8, place limit sell order of LTC-USD with price 52.97636058867928137104948130
+2022-07-27T18:05:58.028Z:  LIMIT order creating: 75d477d9746c68be990901bae729388c59476d2758e3bbc95d3bbe55b396108 market: AVAX-USD side: BUY price: 20.1 amount: 30.2
+2022-07-27T18:05:58.036Z:  LIMIT order created: 75d477d9746c68be990901bae729388c59476d2758e3bbc95d3bbe55b396108 market: AVAX-USD side: BUY price: 20.1 amount: 30.2
+2022-07-27T18:05:58.045Z:  LIMIT order creating: 7c537f408aa7e33e871faa7ee503a5b3a0b8b39d23ff19a709c512e75cf5530 market: ETH-USD side: BUY price: 1519.6 amount: 0.09
+2022-07-27T18:05:58.053Z:  LIMIT order created: 7c537f408aa7e33e871faa7ee503a5b3a0b8b39d23ff19a709c512e75cf5530 market: ETH-USD side: BUY price: 1519.6 amount: 0.09
+2022-07-27T18:05:58.062Z:  LIMIT order creating: 1664c8dcd64a5e7289fe59dec488730cd97099bd394b4a2672d750d0bf5ae83 market: SOL-USD side: SELL price: 35.684 amount: 40
+2022-07-27T18:05:58.071Z:  LIMIT order created: 1664c8dcd64a5e7289fe59dec488730cd97099bd394b4a2672d750d0bf5ae83 market: SOL-USD side: SELL price: 35.684 amount: 40
+2022-07-27T18:05:58.079Z:  LIMIT order creating: 361b067eb49fd92d3fe9cb6b5022eee3abe9b9cdf2a76f90e479f4afa2e1804 market: LTC-USD side: SELL price: 53 amount: 4
+2022-07-27T18:05:58.084Z:  LIMIT order created: 361b067eb49fd92d3fe9cb6b5022eee3abe9b9cdf2a76f90e479f4afa2e1804 market: LTC-USD side: SELL price: 53 amount: 4
+2022-07-27T18:06:05.606Z:  MARKET order creating: 2a616d1acb9047ab353a45260f35cb41ee597b721fdfe345c799f889c376da8 market: AVAX-USD side: BUY price: 21.13 amount: 1
+2022-07-27T18:06:05.637Z:  MARKET order filled: 2a616d1acb9047ab353a45260f35cb41ee597b721fdfe345c799f889c376da8 market: AVAX-USD side: BUY price: 21.13 amount: 1, remaining size: 0
+2022-07-27T18:06:05.644Z:  old slippage allowrance is 0.7145505
+2022-07-27T18:06:05.648Z:  order of coin AVAX-USD is a TAKER order, with price 20.130000 and open price 20.13 has dollar cost 0.000000 and fee 0.010065, new slippage allowrance is 0.7044855
+2022-07-27T18:06:05.655Z:  [Errno 2] No such file or directory: 'logs/stat_arbV2/2022-07-27_fill_price.txt'
+2022-07-27T18:06:05.658Z:  [Errno 2] No such file or directory: 'logs/stat_arbV2/2022-07-27_fill_price.txt'
+2022-07-27T18:06:05.665Z:  [Errno 2] No such file or directory: 'logs/stat_arbV2/2022-07-27_fill_price.txt'
+2022-07-27T18:06:30.780Z:  opened
+2022-07-27T18:06:30.787Z:  best bid and ask not ready
+2022-07-27T18:06:30.979Z:  best bid and ask not ready
+2022-07-27T18:06:31.150Z:  best bid and ask not ready
+2022-07-27T18:06:31.336Z:  best bid and ask not ready
+2022-07-27T18:06:31.342Z:  get new positions
+2022-07-27T18:06:31.568Z:  active positions:
+2022-07-27T18:06:31.573Z:  {'AVAX-USD': Decimal('-21.2'), 'ETH-USD': Decimal('-0.07'), 'LTC-USD': Decimal('2'), 'SOL-USD': Decimal('30')}
+2022-07-27T18:06:31.580Z:  trade size for this hour:
+2022-07-27T18:06:31.584Z:  {'ETH-USD': Decimal('0.09'), 'AVAX-USD': Decimal('31.2'), 'SOL-USD': Decimal('-40'), 'LTC-USD': Decimal('-4')}
+2022-07-27T18:06:31.594Z:  start trading, cancel all existing orders:
+2022-07-27T18:06:31.965Z:  there are 4 active orders
+2022-07-27T18:06:32.184Z:  cancelling all orders...
+2022-07-27T18:06:32.201Z:  LIMIT order created: 75d477d9746c68be990901bae729388c59476d2758e3bbc95d3bbe55b396108 market: AVAX-USD side: BUY price: 20.1 amount: 30.2
+2022-07-27T18:06:32.205Z:  LIMIT order created: 7c537f408aa7e33e871faa7ee503a5b3a0b8b39d23ff19a709c512e75cf5530 market: ETH-USD side: BUY price: 1519.6 amount: 0.09
+2022-07-27T18:06:32.211Z:  LIMIT order created: 1664c8dcd64a5e7289fe59dec488730cd97099bd394b4a2672d750d0bf5ae83 market: SOL-USD side: SELL price: 35.684 amount: 40
+2022-07-27T18:06:32.214Z:  LIMIT order created: 361b067eb49fd92d3fe9cb6b5022eee3abe9b9cdf2a76f90e479f4afa2e1804 market: LTC-USD side: SELL price: 53 amount: 4
+2022-07-27T18:06:32.221Z:  get new positions
+2022-07-27T18:06:32.430Z:  active positions:
+2022-07-27T18:06:32.437Z:  {'AVAX-USD': Decimal('-21.2'), 'ETH-USD': Decimal('-0.07'), 'LTC-USD': Decimal('2'), 'SOL-USD': Decimal('30')}
+2022-07-27T18:06:32.439Z:  trade size for this hour:
+2022-07-27T18:06:32.446Z:  {'ETH-USD': Decimal('0.09'), 'AVAX-USD': Decimal('31.2'), 'SOL-USD': Decimal('-40'), 'LTC-USD': Decimal('-4')}
+2022-07-27T18:06:32.450Z:  start trading, cancel all existing orders:
+2022-07-27T18:06:32.672Z:  there are 0 active orders
+2022-07-27T18:06:32.681Z:  ETH-USD's order with starting price 1522.1 and amount0.09 is buy order, fill it
+2022-07-27T18:06:32.687Z:  AVAX-USD's order with starting price 20.13 and amount31.2 is buy order, fill it
+2022-07-27T18:06:32.691Z:  SOL-USD's order with starting price 35.633 and amount-40 is sell order, fill it
+2022-07-27T18:06:32.699Z:  LTC-USD's order with starting price 52.9 and amount-4 is sell order, fill it
+2022-07-27T18:06:32.702Z:  the long required amount is 765.045
+2022-07-27T18:06:32.707Z:  the short required amount is 1636.920
+2022-07-27T18:06:32.710Z:  the total amount required to be filled is 2401.965
+2022-07-27T18:06:32.717Z:  the inital dollar slippage allowed is 0.7205895
+2022-07-27T18:06:32.723Z:  there are 765.045 long left and 1636.920 short left
+2022-07-27T18:06:32.726Z:  there are 31.850797159825394% long left and 68.14920284017461% short left
+2022-07-27T18:06:32.735Z:  long slippage allowrance is 18.970375761295184% of total dollar slippage and short slippage allowrance is 81.02962423870481% of total dollar slippage
+2022-07-27T18:06:32.738Z:  total slippage allowed is 0.7205895$ long slippage allowrance is 0.13669853584643815$ and short slippage allowrance is 0.5838909641535618$
+2022-07-27T18:06:32.745Z:  long slippage allowrance is 0.017868038592035524% and short slippage allowrance is 0.035670097753925774%
+2022-07-27T18:06:32.749Z:  the slippage premium is 0.0016
+2022-07-27T18:06:32.964Z:  the buy order price is 0.0014213196140796449 away from start price
+2022-07-27T18:06:32.973Z:  the buy order of AVAX-USD has a starting price of 20.13,and a order price of 20.10138883616857675066949749
+2022-07-27T18:06:32.981Z:  order price 20.10138883616857675066949749 is less than buy price20.23, place limit buy order of AVAX-USD with price 20.09736855840134303531936359
+2022-07-27T18:06:33.536Z:  the buy order price is 0.0014213196140796449 away from start price
+2022-07-27T18:06:33.545Z:  the buy order of ETH-USD has a starting price of 1522.1,and a order price of 1519.936609415409372687235078
+2022-07-27T18:06:33.549Z:  order price 1519.936609415409372687235078 is less than buy price1522.2, place limit buy order of ETH-USD with price 1519.632622093526290812697631
+2022-07-27T18:06:34.103Z:  the sell order price is 0.0012432990224607423 away from start price
+2022-07-27T18:06:34.112Z:  the sell order of SOL-USD has a starting price of 35.633,and a order price of 35.67730247406734362769890763
+2022-07-27T18:06:34.116Z:  order price 35.67730247406734362769890763 is more than sell price35.533, place limit sell order of SOL-USD with price 35.68443793456215709642444741
+2022-07-27T18:06:34.725Z:  the sell order price is 0.0012432990224607423 away from start price
+2022-07-27T18:06:34.737Z:  the sell order of LTC-USD has a starting price of 52.9,and a order price of 52.96577051828817326369579360
+2022-07-27T18:06:34.740Z:  order price 52.96577051828817326369579360 is more than sell price52.8, place limit sell order of LTC-USD with price 52.97636367239183089834853276
+2022-07-27T18:06:35.077Z:  LIMIT order cancelled: 75d477d9746c68be990901bae729388c59476d2758e3bbc95d3bbe55b396108 market: AVAX-USD side: BUY price: 20.1 amount: 30.2, reason: USER_CANCELED
+2022-07-27T18:06:35.086Z:  LIMIT order cancelled: 7c537f408aa7e33e871faa7ee503a5b3a0b8b39d23ff19a709c512e75cf5530 market: ETH-USD side: BUY price: 1519.6 amount: 0.09, reason: USER_CANCELED
+2022-07-27T18:06:35.093Z:  LIMIT order cancelled: 1664c8dcd64a5e7289fe59dec488730cd97099bd394b4a2672d750d0bf5ae83 market: SOL-USD side: SELL price: 35.684 amount: 40, reason: USER_CANCELED
+2022-07-27T18:06:35.097Z:  LIMIT order cancelled: 361b067eb49fd92d3fe9cb6b5022eee3abe9b9cdf2a76f90e479f4afa2e1804 market: LTC-USD side: SELL price: 53 amount: 4, reason: USER_CANCELED
+2022-07-27T18:06:35.105Z:  LIMIT order creating: 2550d9af8c0246d128f9c83d0f01f17c590c1088b9527921b5e32161e8f8fe1 market: AVAX-USD side: BUY price: 20.1 amount: 31.2
+2022-07-27T18:06:35.109Z:  LIMIT order created: 2550d9af8c0246d128f9c83d0f01f17c590c1088b9527921b5e32161e8f8fe1 market: AVAX-USD side: BUY price: 20.1 amount: 31.2
+2022-07-27T18:06:35.118Z:  LIMIT order creating: 5040424ff3af7ae50a39eca270700f3b837b23ef03666b96ff94bcbc1018d57 market: ETH-USD side: BUY price: 1519.6 amount: 0.09
+2022-07-27T18:06:35.123Z:  LIMIT order created: 5040424ff3af7ae50a39eca270700f3b837b23ef03666b96ff94bcbc1018d57 market: ETH-USD side: BUY price: 1519.6 amount: 0.09
+2022-07-27T18:06:35.130Z:  LIMIT order creating: 31d550b4c24afeee3bf209952dd2bd4736cb7360d4e16ea15e8ebabbc3910f0 market: SOL-USD side: SELL price: 35.684 amount: 40
+2022-07-27T18:06:35.134Z:  LIMIT order created: 31d550b4c24afeee3bf209952dd2bd4736cb7360d4e16ea15e8ebabbc3910f0 market: SOL-USD side: SELL price: 35.684 amount: 40
+2022-07-27T18:06:35.142Z:  LIMIT order creating: 3fbee132852b39901579e3e475828a3925d807b7376a6fafc3eb1941227b6dc market: LTC-USD side: SELL price: 53 amount: 4
+2022-07-27T18:06:35.146Z:  LIMIT order created: 3fbee132852b39901579e3e475828a3925d807b7376a6fafc3eb1941227b6dc market: LTC-USD side: SELL price: 53 amount: 4
+2022-07-27T18:07:09.371Z:  MARKET order creating: 6ace73876b13058b0e3cf2dad4001722d541834b48b5c68a6ce78cd289df71f market: AVAX-USD side: BUY price: 21.13 amount: 1
+2022-07-27T18:07:09.438Z:  MARKET order filled: 6ace73876b13058b0e3cf2dad4001722d541834b48b5c68a6ce78cd289df71f market: AVAX-USD side: BUY price: 21.13 amount: 1, remaining size: 0
+2022-07-27T18:07:09.441Z:  old slippage allowrance is 0.7205895
+2022-07-27T18:07:09.449Z:  order of coin AVAX-USD is a TAKER order, with price 20.130000 and open price 20.13 has dollar cost 0.000000 and fee 0.010065, new slippage allowrance is 0.7105245
+2022-07-27T18:07:37.165Z:  refresh orders, cancel all existing orders
+2022-07-27T18:07:37.169Z:  2022-07-27T18:07:37.169Z
+2022-07-27T18:07:37.405Z:  there are 4 active orders
+2022-07-27T18:07:37.757Z:  cancelling all orders...
+2022-07-27T18:07:37.770Z:  refresh orders, cancel all existing orders
+2022-07-27T18:07:37.774Z:  2022-07-27T18:07:37.774Z
+2022-07-27T18:07:37.988Z:  there are 0 active orders
+2022-07-27T18:07:38.002Z:  there are 744.915 long left and 1636.920 short left
+2022-07-27T18:07:38.008Z:  there are 31.274836418139795% long left and 68.7251635818602% short left
+2022-07-27T18:07:38.013Z:  long slippage allowrance is 18.272205190777363% of total dollar slippage and short slippage allowrance is 81.72779480922263% of total dollar slippage
+2022-07-27T18:07:38.020Z:  total slippage allowed is 0.7105245$ long slippage allowrance is 0.1298284945707449$ and short slippage allowrance is 0.580696005429255$
+2022-07-27T18:07:38.024Z:  long slippage allowrance is 0.017428632068188305% and short slippage allowrance is 0.0354749166379087%
+2022-07-27T18:07:38.031Z:  the slippage premium is 0.0015
+2022-07-27T18:07:38.233Z:  the buy order price is 0.001325713679318117 away from start price
+2022-07-27T18:07:38.242Z:  the buy order of AVAX-USD has a starting price of 20.13,and a order price of 20.10331338363532630576208823
+2022-07-27T18:07:38.246Z:  order price 20.10331338363532630576208823 is less than buy price20.23, place limit buy order of AVAX-USD with price 20.09929272095859924050093581
+2022-07-27T18:07:38.757Z:  the buy order price is 0.001325713679318117 away from start price
+2022-07-27T18:07:38.766Z:  the buy order of ETH-USD has a starting price of 1522.1,and a order price of 1520.082131208709894187803005
+2022-07-27T18:07:38.773Z:  order price 1520.082131208709894187803005 is less than buy price1522.2, place limit buy order of ETH-USD with price 1519.778114782468152208965444
+2022-07-27T18:07:39.621Z:  the sell order price is 0.001145250833620913 away from start price
+2022-07-27T18:07:39.643Z:  the sell order of SOL-USD has a starting price of 35.633,and a order price of 35.67380872295441399299337622
+2022-07-27T18:07:39.646Z:  order price 35.67380872295441399299337622 is more than sell price35.533, place limit sell order of SOL-USD with price 35.68094348469900487579197490
+2022-07-27T18:07:40.198Z:  the sell order price is 0.001145250833620913 away from start price
+2022-07-27T18:07:40.223Z:  the sell order of LTC-USD has a starting price of 52.9,and a order price of 52.96058376909854629779557157
+2022-07-27T18:07:40.231Z:  order price 52.96058376909854629779557157 is more than sell price52.8, place limit sell order of LTC-USD with price 52.97117588585236600705513068
+2022-07-27T18:07:40.573Z:  LIMIT order cancelled: 2550d9af8c0246d128f9c83d0f01f17c590c1088b9527921b5e32161e8f8fe1 market: AVAX-USD side: BUY price: 20.1 amount: 31.2, reason: USER_CANCELED
+2022-07-27T18:07:40.581Z:  LIMIT order cancelled: 5040424ff3af7ae50a39eca270700f3b837b23ef03666b96ff94bcbc1018d57 market: ETH-USD side: BUY price: 1519.6 amount: 0.09, reason: USER_CANCELED
+2022-07-27T18:07:40.589Z:  LIMIT order cancelled: 31d550b4c24afeee3bf209952dd2bd4736cb7360d4e16ea15e8ebabbc3910f0 market: SOL-USD side: SELL price: 35.684 amount: 40, reason: USER_CANCELED
+2022-07-27T18:07:40.592Z:  LIMIT order cancelled: 3fbee132852b39901579e3e475828a3925d807b7376a6fafc3eb1941227b6dc market: LTC-USD side: SELL price: 53 amount: 4, reason: USER_CANCELED
+2022-07-27T18:07:40.601Z:  LIMIT order creating: 5c0b97933f6bd9841650e14a1800e9d2b38d1c71f40d5d872db9c9119a6c7f4 market: AVAX-USD side: BUY price: 20.1 amount: 30.2
+2022-07-27T18:07:40.605Z:  LIMIT order created: 5c0b97933f6bd9841650e14a1800e9d2b38d1c71f40d5d872db9c9119a6c7f4 market: AVAX-USD side: BUY price: 20.1 amount: 30.2
+2022-07-27T18:07:40.613Z:  LIMIT order creating: 584cfafee5b6ff624e06fdaa873f051b8a82d340ebf3a5d1b84448622934557 market: ETH-USD side: BUY price: 1519.8 amount: 0.09
+2022-07-27T18:07:40.617Z:  LIMIT order created: 584cfafee5b6ff624e06fdaa873f051b8a82d340ebf3a5d1b84448622934557 market: ETH-USD side: BUY price: 1519.8 amount: 0.09
+2022-07-27T18:07:40.625Z:  LIMIT order creating: 56d08eb6c048c8585d466be7a22b9636413bc316ebbb1a7e4368dcf67e0d49b market: SOL-USD side: SELL price: 35.681 amount: 40
+2022-07-27T18:07:40.629Z:  LIMIT order created: 56d08eb6c048c8585d466be7a22b9636413bc316ebbb1a7e4368dcf67e0d49b market: SOL-USD side: SELL price: 35.681 amount: 40
+2022-07-27T18:07:40.637Z:  LIMIT order creating: 616c7fd5c519fcac8a8cac064ce9fb914498bb042242d99e0f2099907227fab market: LTC-USD side: SELL price: 53 amount: 4
+2022-07-27T18:07:40.641Z:  LIMIT order created: 616c7fd5c519fcac8a8cac064ce9fb914498bb042242d99e0f2099907227fab market: LTC-USD side: SELL price: 53 amount: 4
+2022-07-27T18:08:06.665Z:  MARKET order creating: 0230b721a3bc7ce4ac8bdaa96cf10c231710bb364b9558d8200101d4daf906b market: AVAX-USD side: BUY price: 21.13 amount: 1
+2022-07-27T18:08:06.724Z:  MARKET order filled: 0230b721a3bc7ce4ac8bdaa96cf10c231710bb364b9558d8200101d4daf906b market: AVAX-USD side: BUY price: 21.13 amount: 1, remaining size: 0
+2022-07-27T18:08:06.731Z:  old slippage allowrance is 0.7105245
+2022-07-27T18:08:06.735Z:  order of coin AVAX-USD is a TAKER order, with price 20.130000 and open price 20.13 has dollar cost 0.000000 and fee 0.010065, new slippage allowrance is 0.7004595
+2022-07-27T18:08:42.004Z:  refresh orders, cancel all existing orders
+2022-07-27T18:08:42.011Z:  2022-07-27T18:08:42.011Z
+2022-07-27T18:08:42.232Z:  there are 4 active orders
+2022-07-27T18:08:42.470Z:  cancelling all orders...
+2022-07-27T18:08:42.480Z:  refresh orders, cancel all existing orders
+2022-07-27T18:08:42.487Z:  2022-07-27T18:08:42.487Z
+2022-07-27T18:08:42.710Z:  there are 0 active orders
+2022-07-27T18:08:42.723Z:  there are 724.785 long left and 1636.920 short left
+2022-07-27T18:08:42.726Z:  there are 30.689057270065483% long left and 69.31094272993452% short left
+2022-07-27T18:08:42.733Z:  long slippage allowrance is 17.58276497652079% of total dollar slippage and short slippage allowrance is 82.41723502347922% of total dollar slippage
+2022-07-27T18:08:42.737Z:  total slippage allowed is 0.7004595$ long slippage allowrance is 0.12316014764071262$ and short slippage allowrance is 0.5772993523592874$
+2022-07-27T18:08:42.743Z:  long slippage allowrance is 0.016992645769533396% and short slippage allowrance is 0.03526741394565937%
+2022-07-27T18:08:42.746Z:  the slippage premium is 0.0014
+2022-07-27T18:08:42.952Z:  the buy order price is 0.001230073542304666 away from start price
+2022-07-27T18:08:42.956Z:  the buy order of AVAX-USD has a starting price of 20.13,and a order price of 20.10523861959340707246125085
+2022-07-27T18:08:42.964Z:  order price 20.10523861959340707246125085 is less than buy price20.23, place limit buy order of AVAX-USD with price 20.10121757186948839104675860
+2022-07-27T18:08:43.500Z:  the buy order price is 0.001230073542304666 away from start price
+2022-07-27T18:08:43.525Z:  the buy order of ETH-USD has a starting price of 1522.1,and a order price of 1520.227705061258067808905610
+2022-07-27T18:08:43.535Z:  order price 1520.227705061258067808905610 is less than buy price1522.2, place limit buy order of ETH-USD with price 1519.923659520245816195343829
+2022-07-27T18:08:44.097Z:  the sell order price is 0.0010473258605434063 away from start price
+2022-07-27T18:08:44.107Z:  the sell order of SOL-USD has a starting price of 35.633,and a order price of 35.67031936238874319621060844
+2022-07-27T18:08:44.111Z:  order price 35.67031936238874319621060844 is more than sell price35.533, place limit sell order of SOL-USD with price 35.67745342626122094484985056
+2022-07-27T18:08:44.638Z:  the sell order price is 0.0010473258605434063 away from start price
+2022-07-27T18:08:44.646Z:  the sell order of LTC-USD has a starting price of 52.9,and a order price of 52.95540353802274619256142302
+2022-07-27T18:08:44.652Z:  order price 52.95540353802274619256142302 is more than sell price52.8, place limit sell order of LTC-USD with price 52.96599461873035074179993530
+2022-07-27T18:08:44.983Z:  LIMIT order cancelled: 5c0b97933f6bd9841650e14a1800e9d2b38d1c71f40d5d872db9c9119a6c7f4 market: AVAX-USD side: BUY price: 20.1 amount: 30.2, reason: USER_CANCELED
+2022-07-27T18:08:44.991Z:  LIMIT order cancelled: 584cfafee5b6ff624e06fdaa873f051b8a82d340ebf3a5d1b84448622934557 market: ETH-USD side: BUY price: 1519.8 amount: 0.09, reason: USER_CANCELED
+2022-07-27T18:08:44.995Z:  LIMIT order cancelled: 56d08eb6c048c8585d466be7a22b9636413bc316ebbb1a7e4368dcf67e0d49b market: SOL-USD side: SELL price: 35.681 amount: 40, reason: USER_CANCELED
+2022-07-27T18:08:45.002Z:  LIMIT order cancelled: 616c7fd5c519fcac8a8cac064ce9fb914498bb042242d99e0f2099907227fab market: LTC-USD side: SELL price: 53 amount: 4, reason: USER_CANCELED
+2022-07-27T18:08:45.005Z:  LIMIT order creating: 09111e31c46f6e22b3fee27493aceadfba198854032e6f22f0b2a07089db109 market: AVAX-USD side: BUY price: 20.1 amount: 29.2
+2022-07-27T18:08:45.014Z:  LIMIT order created: 09111e31c46f6e22b3fee27493aceadfba198854032e6f22f0b2a07089db109 market: AVAX-USD side: BUY price: 20.1 amount: 29.2
+2022-07-27T18:08:45.018Z:  LIMIT order creating: 0ff76fe9aafc3987f13cbf61e7e985338b72870efd81652db10496dd805c2e3 market: ETH-USD side: BUY price: 1519.9 amount: 0.09
+2022-07-27T18:08:45.027Z:  LIMIT order created: 0ff76fe9aafc3987f13cbf61e7e985338b72870efd81652db10496dd805c2e3 market: ETH-USD side: BUY price: 1519.9 amount: 0.09
+2022-07-27T18:08:45.031Z:  LIMIT order creating: 5226a5e4ce40e8c3aebd64058a910217c31f8e6542a23139a66d62e6608805a market: SOL-USD side: SELL price: 35.677 amount: 40
+2022-07-27T18:08:45.038Z:  LIMIT order created: 5226a5e4ce40e8c3aebd64058a910217c31f8e6542a23139a66d62e6608805a market: SOL-USD side: SELL price: 35.677 amount: 40
+2022-07-27T18:08:45.042Z:  LIMIT order creating: 7534c413d78551fdf9a590b93aac0369d3ab3f00f2c23b890d6da2ba9aa3d20 market: LTC-USD side: SELL price: 53 amount: 4
+2022-07-27T18:08:45.050Z:  LIMIT order created: 7534c413d78551fdf9a590b93aac0369d3ab3f00f2c23b890d6da2ba9aa3d20 market: LTC-USD side: SELL price: 53 amount: 4
+2022-07-27T18:09:43.125Z:  refresh orders, cancel all existing orders
+2022-07-27T18:09:43.139Z:  2022-07-27T18:09:43.139Z
+2022-07-27T18:09:43.358Z:  there are 4 active orders
+2022-07-27T18:09:43.575Z:  cancelling all orders...
+2022-07-27T18:09:43.594Z:  refresh orders, cancel all existing orders
+2022-07-27T18:09:43.597Z:  2022-07-27T18:09:43.597Z
+2022-07-27T18:09:43.806Z:  there are 0 active orders
+2022-07-27T18:09:43.815Z:  there are 724.785 long left and 1636.920 short left
+2022-07-27T18:09:43.823Z:  there are 30.689057270065483% long left and 69.31094272993452% short left
+2022-07-27T18:09:43.826Z:  long slippage allowrance is 17.58276497652079% of total dollar slippage and short slippage allowrance is 82.41723502347922% of total dollar slippage
+2022-07-27T18:09:43.833Z:  total slippage allowed is 0.7004595$ long slippage allowrance is 0.12316014764071262$ and short slippage allowrance is 0.5772993523592874$
+2022-07-27T18:09:43.836Z:  long slippage allowrance is 0.016992645769533396% and short slippage allowrance is 0.03526741394565937%
+2022-07-27T18:09:43.844Z:  the slippage premium is 0.0013
+2022-07-27T18:09:44.214Z:  the buy order price is 0.0011300735423046661 away from start price
+2022-07-27T18:09:44.219Z:  the buy order of AVAX-USD has a starting price of 20.13,and a order price of 20.10725161959340707246125085
+2022-07-27T18:09:44.225Z:  order price 20.10725161959340707246125085 is less than buy price20.23, place limit buy order of AVAX-USD with price 20.10323016926948839104675860
+2022-07-27T18:09:44.743Z:  the buy order price is 0.0011300735423046661 away from start price
+2022-07-27T18:09:44.771Z:  the buy order of ETH-USD has a starting price of 1522.1,and a order price of 1520.379915061258067808905610
+2022-07-27T18:09:44.778Z:  order price 1520.379915061258067808905610 is less than buy price1522.2, place limit buy order of ETH-USD with price 1520.075839078245816195343829
+2022-07-27T18:09:45.354Z:  the sell order price is 0.0009473258605434063 away from start price
+2022-07-27T18:09:45.360Z:  the sell order of SOL-USD has a starting price of 35.633,and a order price of 35.66675606238874319621060844
+2022-07-27T18:09:45.369Z:  order price 35.66675606238874319621060844 is more than sell price35.533, place limit sell order of SOL-USD with price 35.67388941360122094484985056
+2022-07-27T18:09:46.070Z:  the sell order price is 0.0009473258605434063 away from start price
+2022-07-27T18:09:46.081Z:  the sell order of LTC-USD has a starting price of 52.9,and a order price of 52.95011353802274619256142302
+2022-07-27T18:09:46.089Z:  order price 52.95011353802274619256142302 is more than sell price52.8, place limit sell order of LTC-USD with price 52.96070356073035074179993530
+2022-07-27T18:09:46.587Z:  LIMIT order cancelled: 09111e31c46f6e22b3fee27493aceadfba198854032e6f22f0b2a07089db109 market: AVAX-USD side: BUY price: 20.1 amount: 29.2, reason: USER_CANCELED
+2022-07-27T18:09:46.602Z:  LIMIT order cancelled: 0ff76fe9aafc3987f13cbf61e7e985338b72870efd81652db10496dd805c2e3 market: ETH-USD side: BUY price: 1519.9 amount: 0.09, reason: USER_CANCELED
+2022-07-27T18:09:46.605Z:  LIMIT order cancelled: 5226a5e4ce40e8c3aebd64058a910217c31f8e6542a23139a66d62e6608805a market: SOL-USD side: SELL price: 35.677 amount: 40, reason: USER_CANCELED
+2022-07-27T18:09:46.612Z:  LIMIT order cancelled: 7534c413d78551fdf9a590b93aac0369d3ab3f00f2c23b890d6da2ba9aa3d20 market: LTC-USD side: SELL price: 53 amount: 4, reason: USER_CANCELED
+2022-07-27T18:09:46.616Z:  LIMIT order creating: 4039fa8fa44b99499801f21aabcbd7cfc21812db8975f8c5740193c33c07f79 market: AVAX-USD side: BUY price: 20.1 amount: 29.2
+2022-07-27T18:09:46.625Z:  LIMIT order created: 4039fa8fa44b99499801f21aabcbd7cfc21812db8975f8c5740193c33c07f79 market: AVAX-USD side: BUY price: 20.1 amount: 29.2
+2022-07-27T18:09:46.632Z:  LIMIT order creating: 73dfd365eed76803c178c0f17db37b10ccf6a46c463adf6cadaf6a49c656e56 market: ETH-USD side: BUY price: 1520.1 amount: 0.09
+2022-07-27T18:09:46.636Z:  LIMIT order created: 73dfd365eed76803c178c0f17db37b10ccf6a46c463adf6cadaf6a49c656e56 market: ETH-USD side: BUY price: 1520.1 amount: 0.09
+2022-07-27T18:09:46.644Z:  LIMIT order creating: 1c20e49463f8e2651846a7784e50bfa1a677ca83bd4c0b0b5d978be346d9626 market: SOL-USD side: SELL price: 35.674 amount: 40
+2022-07-27T18:09:46.647Z:  LIMIT order created: 1c20e49463f8e2651846a7784e50bfa1a677ca83bd4c0b0b5d978be346d9626 market: SOL-USD side: SELL price: 35.674 amount: 40
+2022-07-27T18:09:46.655Z:  LIMIT order creating: 13f558667d958cc5c7bb69ce2abf4b659b3313896c146084e9c66c77092f6cf market: LTC-USD side: SELL price: 53 amount: 4
+2022-07-27T18:09:46.659Z:  LIMIT order created: 13f558667d958cc5c7bb69ce2abf4b659b3313896c146084e9c66c77092f6cf market: LTC-USD side: SELL price: 53 amount: 4
+2022-07-27T18:10:43.854Z:  refresh orders, cancel all existing orders
+2022-07-27T18:10:43.875Z:  2022-07-27T18:10:43.875Z
+2022-07-27T18:10:44.103Z:  there are 4 active orders
+2022-07-27T18:10:44.320Z:  cancelling all orders...
+2022-07-27T18:10:44.335Z:  refresh orders, cancel all existing orders
+2022-07-27T18:10:44.338Z:  2022-07-27T18:10:44.338Z
+2022-07-27T18:10:44.555Z:  there are 0 active orders
+2022-07-27T18:10:44.570Z:  there are 724.785 long left and 1636.920 short left
+2022-07-27T18:10:44.573Z:  there are 30.689057270065483% long left and 69.31094272993452% short left
+2022-07-27T18:10:44.580Z:  long slippage allowrance is 17.58276497652079% of total dollar slippage and short slippage allowrance is 82.41723502347922% of total dollar slippage
+2022-07-27T18:10:44.583Z:  total slippage allowed is 0.7004595$ long slippage allowrance is 0.12316014764071262$ and short slippage allowrance is 0.5772993523592874$
+2022-07-27T18:10:44.589Z:  long slippage allowrance is 0.016992645769533396% and short slippage allowrance is 0.03526741394565937%
+2022-07-27T18:10:44.592Z:  the slippage premium is 0.0012
+2022-07-27T18:10:44.829Z:  the buy order price is 0.001030073542304666 away from start price
+2022-07-27T18:10:44.838Z:  the buy order of AVAX-USD has a starting price of 20.13,and a order price of 20.10926461959340707246125085
+2022-07-27T18:10:44.841Z:  order price 20.10926461959340707246125085 is less than buy price20.23, place limit buy order of AVAX-USD with price 20.10524276666948839104675860
+2022-07-27T18:10:45.424Z:  the buy order price is 0.001030073542304666 away from start price
+2022-07-27T18:10:45.429Z:  the buy order of ETH-USD has a starting price of 1522.1,and a order price of 1520.532125061258067808905610
+2022-07-27T18:10:45.435Z:  order price 1520.532125061258067808905610 is less than buy price1522.2, place limit buy order of ETH-USD with price 1520.228018636245816195343829
+2022-07-27T18:10:46.011Z:  the sell order price is 0.0008473258605434063 away from start price
+2022-07-27T18:10:46.021Z:  the sell order of SOL-USD has a starting price of 35.633,and a order price of 35.66319276238874319621060844
+2022-07-27T18:10:46.028Z:  order price 35.66319276238874319621060844 is more than sell price35.533, place limit sell order of SOL-USD with price 35.67032540094122094484985056
+2022-07-27T18:10:46.640Z:  the sell order price is 0.0008473258605434063 away from start price
+2022-07-27T18:10:46.656Z:  the sell order of LTC-USD has a starting price of 52.9,and a order price of 52.94482353802274619256142302
+2022-07-27T18:10:46.659Z:  order price 52.94482353802274619256142302 is more than sell price52.8, place limit sell order of LTC-USD with price 52.95541250273035074179993530
+2022-07-27T18:10:46.990Z:  LIMIT order cancelled: 4039fa8fa44b99499801f21aabcbd7cfc21812db8975f8c5740193c33c07f79 market: AVAX-USD side: BUY price: 20.1 amount: 29.2, reason: USER_CANCELED
+2022-07-27T18:10:47.001Z:  LIMIT order cancelled: 73dfd365eed76803c178c0f17db37b10ccf6a46c463adf6cadaf6a49c656e56 market: ETH-USD side: BUY price: 1520.1 amount: 0.09, reason: USER_CANCELED
+2022-07-27T18:10:47.009Z:  LIMIT order cancelled: 1c20e49463f8e2651846a7784e50bfa1a677ca83bd4c0b0b5d978be346d9626 market: SOL-USD side: SELL price: 35.674 amount: 40, reason: USER_CANCELED
+2022-07-27T18:10:47.012Z:  LIMIT order cancelled: 13f558667d958cc5c7bb69ce2abf4b659b3313896c146084e9c66c77092f6cf market: LTC-USD side: SELL price: 53 amount: 4, reason: USER_CANCELED
+2022-07-27T18:10:47.019Z:  LIMIT order creating: 4646619cef388855b9fb9baf99b70d73fafd44a842cc06b63784d5ec944e3b0 market: AVAX-USD side: BUY price: 20.11 amount: 29.2
+2022-07-27T18:10:47.023Z:  LIMIT order created: 4646619cef388855b9fb9baf99b70d73fafd44a842cc06b63784d5ec944e3b0 market: AVAX-USD side: BUY price: 20.11 amount: 29.2
+2022-07-27T18:10:47.031Z:  LIMIT order creating: 171f438016e4fcb5d17bac44266e9142328539a0427ccbb1563bf3be12aa7b7 market: ETH-USD side: BUY price: 1520.2 amount: 0.09
+2022-07-27T18:10:47.035Z:  LIMIT order created: 171f438016e4fcb5d17bac44266e9142328539a0427ccbb1563bf3be12aa7b7 market: ETH-USD side: BUY price: 1520.2 amount: 0.09
+2022-07-27T18:10:47.043Z:  LIMIT order creating: 30a5f2d51bf6555ef1488c8c61bcdc19ec0e8dcf3682775ad2b03787f6a3c12 market: SOL-USD side: SELL price: 35.67 amount: 40
+2022-07-27T18:10:47.047Z:  LIMIT order created: 30a5f2d51bf6555ef1488c8c61bcdc19ec0e8dcf3682775ad2b03787f6a3c12 market: SOL-USD side: SELL price: 35.67 amount: 40
+2022-07-27T18:10:47.054Z:  LIMIT order creating: 30d64bc4ae5e6d05d219387b2cf82568472486faaf63e03e5efb1315cf57d9b market: LTC-USD side: SELL price: 53 amount: 4
+2022-07-27T18:10:47.058Z:  LIMIT order created: 30d64bc4ae5e6d05d219387b2cf82568472486faaf63e03e5efb1315cf57d9b market: LTC-USD side: SELL price: 53 amount: 4
+2022-07-27T18:11:25.549Z:  opened
+2022-07-27T18:11:25.564Z:  best bid and ask not ready
+2022-07-27T18:11:25.757Z:  best bid and ask not ready
+2022-07-27T18:11:25.924Z:  best bid and ask not ready
+2022-07-27T18:11:26.111Z:  best bid and ask not ready
+2022-07-27T18:11:26.118Z:  get new positions
+2022-07-27T18:11:26.386Z:  active positions:
+2022-07-27T18:11:26.394Z:  {'AVAX-USD': Decimal('-23.2'), 'ETH-USD': Decimal('-0.07'), 'LTC-USD': Decimal('2'), 'SOL-USD': Decimal('30')}
+2022-07-27T18:11:26.397Z:  trade size for this hour:
+2022-07-27T18:11:26.403Z:  {'ETH-USD': Decimal('0.09'), 'AVAX-USD': Decimal('33.2'), 'SOL-USD': Decimal('-40'), 'LTC-USD': Decimal('-4')}
+2022-07-27T18:11:26.406Z:  start trading, cancel all existing orders:
+2022-07-27T18:11:26.621Z:  there are 4 active orders
+2022-07-27T18:11:26.845Z:  cancelling all orders...
+2022-07-27T18:11:26.886Z:  LIMIT order created: 4646619cef388855b9fb9baf99b70d73fafd44a842cc06b63784d5ec944e3b0 market: AVAX-USD side: BUY price: 20.11 amount: 29.2
+2022-07-27T18:11:26.890Z:  LIMIT order created: 171f438016e4fcb5d17bac44266e9142328539a0427ccbb1563bf3be12aa7b7 market: ETH-USD side: BUY price: 1520.2 amount: 0.09
+2022-07-27T18:11:26.898Z:  LIMIT order created: 30a5f2d51bf6555ef1488c8c61bcdc19ec0e8dcf3682775ad2b03787f6a3c12 market: SOL-USD side: SELL price: 35.67 amount: 40
+2022-07-27T18:11:26.901Z:  LIMIT order created: 30d64bc4ae5e6d05d219387b2cf82568472486faaf63e03e5efb1315cf57d9b market: LTC-USD side: SELL price: 53 amount: 4
+2022-07-27T18:11:26.908Z:  get new positions
+2022-07-27T18:11:27.289Z:  active positions:
+2022-07-27T18:11:27.303Z:  {'AVAX-USD': Decimal('-23.2'), 'ETH-USD': Decimal('-0.07'), 'LTC-USD': Decimal('2'), 'SOL-USD': Decimal('30')}
+2022-07-27T18:11:27.308Z:  trade size for this hour:
+2022-07-27T18:11:27.316Z:  {'ETH-USD': Decimal('0.09'), 'AVAX-USD': Decimal('33.2'), 'SOL-USD': Decimal('-40'), 'LTC-USD': Decimal('-4')}
+2022-07-27T18:11:27.319Z:  start trading, cancel all existing orders:
+2022-07-27T18:11:27.686Z:  there are 0 active orders
+2022-07-27T18:11:27.698Z:  ETH-USD's order with starting price 1522.1 and amount0.09 is buy order, fill it
+2022-07-27T18:11:27.708Z:  AVAX-USD's order with starting price 20.13 and amount33.2 is buy order, fill it
+2022-07-27T18:11:27.713Z:  SOL-USD's order with starting price 35.633 and amount-40 is sell order, fill it
+2022-07-27T18:11:27.724Z:  LTC-USD's order with starting price 52.9 and amount-4 is sell order, fill it
+2022-07-27T18:11:27.728Z:  the long required amount is 805.305
+2022-07-27T18:11:27.738Z:  the short required amount is 1636.920
+2022-07-27T18:11:27.741Z:  the total amount required to be filled is 2442.225
+2022-07-27T18:11:27.749Z:  the inital dollar slippage allowed is 0.7326675
+2022-07-27T18:11:27.752Z:  there are 805.305 long left and 1636.920 short left
+2022-07-27T18:11:27.758Z:  there are 32.974234560697724% long left and 67.02576543930228% short left
+2022-07-27T18:11:27.761Z:  long slippage allowrance is 20.390550178937254% of total dollar slippage and short slippage allowrance is 79.60944982106275% of total dollar slippage
+2022-07-27T18:11:27.769Z:  total slippage allowed is 0.7326675$ long slippage allowrance is 0.1493949342322651$ and short slippage allowrance is 0.5832725657677349$
+2022-07-27T18:11:27.772Z:  long slippage allowrance is 0.018551348151602823% and short slippage allowrance is 0.03563231958603566%
+2022-07-27T18:11:27.779Z:  the slippage premium is 0.0016
+2022-07-27T18:11:28.022Z:  the buy order price is 0.0014144865184839719 away from start price
+2022-07-27T18:11:28.043Z:  the buy order of AVAX-USD has a starting price of 20.13,and a order price of 20.10152638638291764803875950
+2022-07-27T18:11:28.049Z:  order price 20.10152638638291764803875950 is less than buy price20.23, place limit buy order of AVAX-USD with price 20.09750608110564106450915175
+2022-07-27T18:11:28.592Z:  the buy order price is 0.0014144865184839719 away from start price
+2022-07-27T18:11:28.604Z:  the buy order of ETH-USD has a starting price of 1522.1,and a order price of 1519.947010070215546551405655
+2022-07-27T18:11:28.611Z:  order price 1519.947010070215546551405655 is less than buy price1522.2, place limit buy order of ETH-USD with price 1519.643020668201503442095374
+2022-07-27T18:11:29.318Z:  the sell order price is 0.0012436768041396433 away from start price
+2022-07-27T18:11:29.335Z:  the sell order of SOL-USD has a starting price of 35.633,and a order price of 35.67731593556190791392928382
+2022-07-27T18:11:29.339Z:  order price 35.67731593556190791392928382 is more than sell price35.533, place limit sell order of SOL-USD with price 35.68445139874902029551206968
+2022-07-27T18:11:29.912Z:  the sell order price is 0.0012436768041396433 away from start price
+2022-07-27T18:11:29.917Z:  the sell order of LTC-USD has a starting price of 52.9,and a order price of 52.96579050293898713683549277
+2022-07-27T18:11:29.929Z:  order price 52.96579050293898713683549277 is more than sell price52.8, place limit sell order of LTC-USD with price 52.97638366103957493426285987
+2022-07-27T18:11:30.273Z:  LIMIT order cancelled: 4646619cef388855b9fb9baf99b70d73fafd44a842cc06b63784d5ec944e3b0 market: AVAX-USD side: BUY price: 20.11 amount: 29.2, reason: USER_CANCELED
+2022-07-27T18:11:30.283Z:  LIMIT order cancelled: 171f438016e4fcb5d17bac44266e9142328539a0427ccbb1563bf3be12aa7b7 market: ETH-USD side: BUY price: 1520.2 amount: 0.09, reason: USER_CANCELED
+2022-07-27T18:11:30.287Z:  LIMIT order cancelled: 30a5f2d51bf6555ef1488c8c61bcdc19ec0e8dcf3682775ad2b03787f6a3c12 market: SOL-USD side: SELL price: 35.67 amount: 40, reason: USER_CANCELED
+2022-07-27T18:11:30.297Z:  LIMIT order cancelled: 30d64bc4ae5e6d05d219387b2cf82568472486faaf63e03e5efb1315cf57d9b market: LTC-USD side: SELL price: 53 amount: 4, reason: USER_CANCELED
+2022-07-27T18:11:30.302Z:  LIMIT order creating: 5a91c6a822b86d6790bf96ff45deabde2c7e877f71238364e29541b623942b4 market: AVAX-USD side: BUY price: 20.1 amount: 33.2
+2022-07-27T18:11:30.314Z:  LIMIT order created: 5a91c6a822b86d6790bf96ff45deabde2c7e877f71238364e29541b623942b4 market: AVAX-USD side: BUY price: 20.1 amount: 33.2
+2022-07-27T18:11:30.325Z:  LIMIT order creating: 5b3c2aed2a38d849e305a0b9b066fe5073d9487c79cc9360afb23f343dae287 market: ETH-USD side: BUY price: 1519.6 amount: 0.09
+2022-07-27T18:11:30.328Z:  LIMIT order created: 5b3c2aed2a38d849e305a0b9b066fe5073d9487c79cc9360afb23f343dae287 market: ETH-USD side: BUY price: 1519.6 amount: 0.09
+2022-07-27T18:11:30.338Z:  LIMIT order creating: 1b9b50d39a7a506d8976ea8c967f1f4b654a5ec4dd91cad8cbabf827a695282 market: SOL-USD side: SELL price: 35.684 amount: 40
+2022-07-27T18:11:30.344Z:  LIMIT order created: 1b9b50d39a7a506d8976ea8c967f1f4b654a5ec4dd91cad8cbabf827a695282 market: SOL-USD side: SELL price: 35.684 amount: 40
+2022-07-27T18:11:30.353Z:  LIMIT order creating: 61cfec2a5f8b8d4acfe747f72dca79b598bdade2b029153091f74137cd196c5 market: LTC-USD side: SELL price: 53 amount: 4
+2022-07-27T18:11:30.357Z:  LIMIT order created: 61cfec2a5f8b8d4acfe747f72dca79b598bdade2b029153091f74137cd196c5 market: LTC-USD side: SELL price: 53 amount: 4
+2022-07-27T18:11:33.699Z:  
+2022-07-27T18:11:49.733Z:  opened
+2022-07-27T18:11:49.748Z:  best bid and ask not ready
+2022-07-27T18:11:49.953Z:  best bid and ask not ready
+2022-07-27T18:11:50.125Z:  best bid and ask not ready
+2022-07-27T18:11:50.315Z:  best bid and ask not ready
+2022-07-27T18:11:50.321Z:  get new positions
+2022-07-27T18:11:50.529Z:  active positions:
+2022-07-27T18:11:50.535Z:  {'AVAX-USD': Decimal('-23.2'), 'ETH-USD': Decimal('-0.07'), 'LTC-USD': Decimal('2'), 'SOL-USD': Decimal('30')}
+2022-07-27T18:11:50.548Z:  trade size for this hour:
+2022-07-27T18:11:50.553Z:  {'ETH-USD': Decimal('0.09'), 'AVAX-USD': Decimal('33.2'), 'SOL-USD': Decimal('-40'), 'LTC-USD': Decimal('-4')}
+2022-07-27T18:11:50.564Z:  start trading, cancel all existing orders:
+2022-07-27T18:11:50.813Z:  there are 4 active orders
+2022-07-27T18:11:51.053Z:  cancelling all orders...
+2022-07-27T18:11:51.077Z:  {'type': 'subscribed', 'connection_id': 'd54150cb-e606-48d7-92d1-3db9e28d1a8b', 'message_id': 5, 'channel': 'v3_accounts', 'id': 'bbeb318c-c78f-5650-b424-97baf6808cdc', 'contents': {'orders': [{'id': '5a91c6a822b86d6790bf96ff45deabde2c7e877f71238364e29541b623942b4', 'clientId': '3642662508971689', 'accountId': 'bbeb318c-c78f-5650-b424-97baf6808cdc', 'market': 'AVAX-USD', 'side': 'BUY', 'price': '20.1', 'triggerPrice': None, 'trailingPercent': None, 'size': '33.2', 'reduceOnlySize': None, 'remainingSize': '33.2', 'type': 'LIMIT', 'createdAt': '2022-07-27T18:11:28.362Z', 'unfillableAt': None, 'expiresAt': '2022-07-27T18:12:38.062Z', 'status': 'OPEN', 'timeInForce': 'GTT', 'postOnly': True, 'reduceOnly': False, 'cancelReason': None}, {'id': '5b3c2aed2a38d849e305a0b9b066fe5073d9487c79cc9360afb23f343dae287', 'clientId': '842812890685795', 'accountId': 'bbeb318c-c78f-5650-b424-97baf6808cdc', 'market': 'ETH-USD', 'side': 'BUY', 'price': '1519.6', 'triggerPrice': None, 'trailingPercent': None, 'size': '0.09', 'reduceOnlySize': None, 'remainingSize': '0.09', 'type': 'LIMIT', 'createdAt': '2022-07-27T18:11:29.095Z', 'unfillableAt': None, 'expiresAt': '2022-07-27T18:12:38.614Z', 'status': 'OPEN', 'timeInForce': 'GTT', 'postOnly': True, 'reduceOnly': False, 'cancelReason': None}, {'id': '1b9b50d39a7a506d8976ea8c967f1f4b654a5ec4dd91cad8cbabf827a695282', 'clientId': '8780241937254227', 'accountId': 'bbeb318c-c78f-5650-b424-97baf6808cdc', 'market': 'SOL-USD', 'side': 'SELL', 'price': '35.684', 'triggerPrice': None, 'trailingPercent': None, 'size': '40', 'reduceOnlySize': None, 'remainingSize': '40', 'type': 'LIMIT', 'createdAt': '2022-07-27T18:11:29.665Z', 'unfillableAt': None, 'expiresAt': '2022-07-27T18:12:39.348Z', 'status': 'OPEN', 'timeInForce': 'GTT', 'postOnly': True, 'reduceOnly': False, 'cancelReason': None}, {'id': '61cfec2a5f8b8d4acfe747f72dca79b598bdade2b029153091f74137cd196c5', 'clientId': '8641796410384152', 'accountId': 'bbeb318c-c78f-5650-b424-97baf6808cdc', 'market': 'LTC-USD', 'side': 'SELL', 'price': '53', 'triggerPrice': None, 'trailingPercent': None, 'size': '4', 'reduceOnlySize': None, 'remainingSize': '4', 'type': 'LIMIT', 'createdAt': '2022-07-27T18:11:30.249Z', 'unfillableAt': None, 'expiresAt': '2022-07-27T18:12:39.934Z', 'status': 'OPEN', 'timeInForce': 'GTT', 'postOnly': True, 'reduceOnly': False, 'cancelReason': None}], 'account': {'starkKey': '0582ec60f94b105c1db95f224862331c1d06c554cccacb73f9fe2260b46b7b4c', 'positionId': '65089', 'equity': '9618.536724', 'freeCollateral': '9437.111887', 'pendingDeposits': '0.000000', 'pendingWithdrawals': '0.000000', 'openPositions': {'AVAX-USD': {'market': 'AVAX-USD', 'status': 'OPEN', 'side': 'LONG', 'size': '23.2', 'maxSize': '23.2', 'entryPrice': '19.942328', 'exitPrice': '0.000000', 'unrealizedPnl': '45.751662', 'realizedPnl': '-6.480053', 'createdAt': '2022-07-26T18:42:43.652Z', 'closedAt': None, 'sumOpen': '23.2', 'sumClose': '0', 'netFunding': '-6.480053'}, 'SOL-USD': {'market': 'SOL-USD', 'status': 'OPEN', 'side': 'SHORT', 'size': '-30', 'maxSize': '-30', 'entryPrice': '35.581667', 'exitPrice': '0.000000', 'unrealizedPnl': '-74.591200', 'realizedPnl': '7.183784', 'createdAt': '2022-07-26T21:05:51.860Z', 'closedAt': None, 'sumOpen': '30', 'sumClose': '0', 'netFunding': '7.183784'}, 'ETH-USD': {'market': 'ETH-USD', 'status': 'OPEN', 'side': 'LONG', 'size': '0.07', 'maxSize': '0.07', 'entryPrice': '1378.085714', 'exitPrice': '0.000000', 'unrealizedPnl': '11.514600', 'realizedPnl': '-2.083104', 'createdAt': '2022-07-26T18:42:44.246Z', 'closedAt': None, 'sumOpen': '0.07', 'sumClose': '0', 'netFunding': '-2.083104'}, 'LTC-USD': {'market': 'LTC-USD', 'status': 'OPEN', 'side': 'SHORT', 'size': '-2', 'maxSize': '-2', 'entryPrice': '52.800000', 'exitPrice': '0.000000', 'unrealizedPnl': '-6.617682', 'realizedPnl': '2.114328', 'createdAt': '2022-07-26T21:07:28.888Z', 'closedAt': None, 'sumOpen': '2', 'sumClose': '0', 'netFunding': '2.114328'}}, 'accountNumber': '0', 'id': 'bbeb318c-c78f-5650-b424-97baf6808cdc', 'quoteBalance': '10255.965183', 'createdAt': '2022-07-21T15:52:16.274Z'}, 'transfers': [{'id': 'd6e2508b-412e-57ac-8ad2-8d6d2bcbe81f', 'type': 'TRANSFER_IN', 'debitAsset': 'USDC', 'creditAsset': 'USDC', 'debitAmount': '0', 'creditAmount': '2000', 'transactionHash': None, 'status': 'CONFIRMED', 'createdAt': '2022-07-26T15:27:35.166Z', 'confirmedAt': '2022-07-26T15:27:35.172Z', 'clientId': '729d0ec5-ad2c-5c62-b55c-1cc78ddd1eda', 'fromAddress': None, 'toAddress': None}, {'id': '10bb81d5-af43-5e51-b667-16aba12c2577', 'type': 'TRANSFER_IN', 'debitAsset': 'USDC', 'creditAsset': 'USDC', 'debitAmount': '0', 'creditAmount': '2000', 'transactionHash': None, 'status': 'CONFIRMED', 'createdAt': '2022-07-26T15:27:32.930Z', 'confirmedAt': '2022-07-26T15:27:32.936Z', 'clientId': 'f8189207-9917-5abf-b48e-cca749e77a91', 'fromAddress': None, 'toAddress': None}, {'id': '4d7151f6-fc5d-5928-a033-795036f56a63', 'type': 'TRANSFER_IN', 'debitAsset': 'USDC', 'creditAsset': 'USDC', 'debitAmount': '0', 'creditAmount': '2000', 'transactionHash': None, 'status': 'CONFIRMED', 'createdAt': '2022-07-26T15:27:30.249Z', 'confirmedAt': '2022-07-26T15:27:30.254Z', 'clientId': 'd5454ab3-43e2-5570-a17c-ffec30bfb96a', 'fromAddress': None, 'toAddress': None}, {'id': '1a0a902a-0955-5398-b3c8-fbf94cda5618', 'type': 'TRANSFER_IN', 'debitAsset': 'USDC', 'creditAsset': 'USDC', 'debitAmount': '0', 'creditAmount': '2000', 'transactionHash': None, 'status': 'CONFIRMED', 'createdAt': '2022-07-26T15:27:27.548Z', 'confirmedAt': '2022-07-26T15:27:27.554Z', 'clientId': 'd3daf618-32d8-5a0b-a3a8-f14f6da83119', 'fromAddress': None, 'toAddress': None}, {'id': 'f0e87045-f955-5b55-909b-25be59d79cf9', 'type': 'TRANSFER_IN', 'debitAsset': 'USDC', 'creditAsset': 'USDC', 'debitAmount': '0', 'creditAmount': '2000', 'transactionHash': None, 'status': 'CONFIRMED', 'createdAt': '2022-07-22T19:43:07.304Z', 'confirmedAt': '2022-07-22T19:43:07.308Z', 'clientId': 'cc4f621a-4cba-5fb2-9848-e90871724460', 'fromAddress': None, 'toAddress': None}, {'id': '34aac054-8f76-5d84-a547-b1cb2b7a1348', 'type': 'TRANSFER_IN', 'debitAsset': 'USDC', 'creditAsset': 'USDC', 'debitAmount': '0', 'creditAmount': '2000', 'transactionHash': None, 'status': 'CONFIRMED', 'createdAt': '2022-07-22T19:43:04.117Z', 'confirmedAt': '2022-07-22T19:43:04.121Z', 'clientId': 'f0e706f6-bebe-5a20-b1d9-f7c49b1f65ab', 'fromAddress': None, 'toAddress': None}, {'id': '5c28a82d-1231-5971-8c91-6174d4e171a0', 'type': 'TRANSFER_IN', 'debitAsset': 'USDC', 'creditAsset': 'USDC', 'debitAmount': '0', 'creditAmount': '2000', 'transactionHash': None, 'status': 'CONFIRMED', 'createdAt': '2022-07-22T19:43:01.629Z', 'confirmedAt': '2022-07-22T19:43:01.635Z', 'clientId': 'adc1f3b6-6f31-5a99-b2d2-fdc08d6a5e85', 'fromAddress': None, 'toAddress': None}, {'id': 'f09620e1-56cb-523c-94c3-e0d602fc13ba', 'type': 'TRANSFER_IN', 'debitAsset': 'USDC', 'creditAsset': 'USDC', 'debitAmount': '0', 'creditAmount': '2000', 'transactionHash': None, 'status': 'CONFIRMED', 'createdAt': '2022-07-21T15:54:56.106Z', 'confirmedAt': '2022-07-21T15:54:56.109Z', 'clientId': 'c014ebb3-7d0e-5334-b1b7-2a7137dd9030', 'fromAddress': None, 'toAddress': None}, {'id': 'ee1eb82d-fdd9-55ba-a8c6-8995e30fb971', 'type': 'TRANSFER_IN', 'debitAsset': 'USDC', 'creditAsset': 'USDC', 'debitAmount': '0', 'creditAmount': '2000', 'transactionHash': None, 'status': 'CONFIRMED', 'createdAt': '2022-07-21T15:52:31.485Z', 'confirmedAt': '2022-07-21T15:52:31.490Z', 'clientId': '2e71d039-94d7-53b7-97e2-36c63381a52e', 'fromAddress': None, 'toAddress': None}], 'fundingPayments': [{'market': 'LTC-USD', 'payment': '0.101834', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '54.311982', 'effectiveAt': '2022-07-27T18:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.380757', 'rate': '0.0009375000', 'positionSize': '19.2', 'price': '21.153179', 'effectiveAt': '2022-07-27T18:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.345187', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '36.820000', 'effectiveAt': '2022-07-27T18:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.098494', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1500.875000', 'effectiveAt': '2022-07-27T18:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.101081', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.910000', 'effectiveAt': '2022-07-27T17:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.279562', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '21.000000', 'effectiveAt': '2022-07-27T17:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.343031', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '36.590000', 'effectiveAt': '2022-07-27T17:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.097537', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1486.291800', 'effectiveAt': '2022-07-27T17:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.101449', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '54.106576', 'effectiveAt': '2022-07-27T16:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.283379', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '21.286719', 'effectiveAt': '2022-07-27T16:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.347718', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '37.090000', 'effectiveAt': '2022-07-27T16:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.097793', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1490.180000', 'effectiveAt': '2022-07-27T16:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.101456', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '54.110000', 'effectiveAt': '2022-07-27T15:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.283089', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '21.264966', 'effectiveAt': '2022-07-27T15:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.347249', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '37.040000', 'effectiveAt': '2022-07-27T15:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.097919', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1492.099300', 'effectiveAt': '2022-07-27T15:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.101456', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '54.110000', 'effectiveAt': '2022-07-27T14:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.284621', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '21.380000', 'effectiveAt': '2022-07-27T14:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.350437', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '37.380000', 'effectiveAt': '2022-07-27T14:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.097884', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1491.567800', 'effectiveAt': '2022-07-27T14:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.101137', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.940000', 'effectiveAt': '2022-07-27T13:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.281293', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '21.130000', 'effectiveAt': '2022-07-27T13:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.347249', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '37.040000', 'effectiveAt': '2022-07-27T13:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.097254', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1481.966800', 'effectiveAt': '2022-07-27T13:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.099862', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.260000', 'effectiveAt': '2022-07-27T12:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.277166', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '20.820000', 'effectiveAt': '2022-07-27T12:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.341209', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '36.395645', 'effectiveAt': '2022-07-27T12:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.09549', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1455.092000', 'effectiveAt': '2022-07-27T12:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.100443', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.570000', 'effectiveAt': '2022-07-27T11:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.278653', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '20.931717', 'effectiveAt': '2022-07-27T11:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.343172', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '36.605100', 'effectiveAt': '2022-07-27T11:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.095577', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1456.414300', 'effectiveAt': '2022-07-27T11:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.100724', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.720000', 'effectiveAt': '2022-07-27T10:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.279296', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '20.980000', 'effectiveAt': '2022-07-27T10:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.344062', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '36.700000', 'effectiveAt': '2022-07-27T10:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.095779', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1459.493300', 'effectiveAt': '2022-07-27T10:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.101006', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.870000', 'effectiveAt': '2022-07-27T09:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.281159', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '21.120000', 'effectiveAt': '2022-07-27T09:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.344531', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '36.750000', 'effectiveAt': '2022-07-27T09:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.095897', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1461.290000', 'effectiveAt': '2022-07-27T09:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.101099', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.920000', 'effectiveAt': '2022-07-27T08:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.280627', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '21.080000', 'effectiveAt': '2022-07-27T08:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.345108', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '36.811523', 'effectiveAt': '2022-07-27T08:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.096134', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1464.910000', 'effectiveAt': '2022-07-27T08:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.100429', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.562669', 'effectiveAt': '2022-07-27T07:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.279029', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '20.960000', 'effectiveAt': '2022-07-27T07:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.345101', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '36.810797', 'effectiveAt': '2022-07-27T07:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.095325', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1452.580500', 'effectiveAt': '2022-07-27T07:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.100667', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.689271', 'effectiveAt': '2022-07-27T06:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.281026', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '21.110000', 'effectiveAt': '2022-07-27T06:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.347437', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '37.060000', 'effectiveAt': '2022-07-27T06:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.095509', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1455.382600', 'effectiveAt': '2022-07-27T06:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.100087', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.380000', 'effectiveAt': '2022-07-27T05:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.272639', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '20.480000', 'effectiveAt': '2022-07-27T05:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.338036', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '36.057217', 'effectiveAt': '2022-07-27T05:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.094324', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1437.326398', 'effectiveAt': '2022-07-27T05:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.099562', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.100000', 'effectiveAt': '2022-07-27T04:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.269178', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '20.220000', 'effectiveAt': '2022-07-27T04:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.33555', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '35.792102', 'effectiveAt': '2022-07-27T04:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.093448', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1423.979376', 'effectiveAt': '2022-07-27T04:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.100331', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.510000', 'effectiveAt': '2022-07-27T03:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.271308', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '20.380000', 'effectiveAt': '2022-07-27T03:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.337031', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '35.950000', 'effectiveAt': '2022-07-27T03:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.094285', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1436.734600', 'effectiveAt': '2022-07-27T03:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.100593', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.650000', 'effectiveAt': '2022-07-27T02:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.272506', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '20.470000', 'effectiveAt': '2022-07-27T02:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.337124', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '35.960000', 'effectiveAt': '2022-07-27T02:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.094126', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1434.302500', 'effectiveAt': '2022-07-27T02:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.100859', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.791565', 'effectiveAt': '2022-07-27T01:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.273838', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '20.570000', 'effectiveAt': '2022-07-27T01:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.337523', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '36.002556', 'effectiveAt': '2022-07-27T01:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.094705', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1443.134300', 'effectiveAt': '2022-07-27T01:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.101118', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.930000', 'effectiveAt': '2022-07-27T00:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.27588', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '20.723387', 'effectiveAt': '2022-07-27T00:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.339325', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '36.194696', 'effectiveAt': '2022-07-27T00:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.09533', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1452.662065', 'effectiveAt': '2022-07-27T00:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.100312', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.500000', 'effectiveAt': '2022-07-26T23:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.271655', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '20.406041', 'effectiveAt': '2022-07-26T23:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.336992', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '35.945866', 'effectiveAt': '2022-07-26T23:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.092575', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1410.676000', 'effectiveAt': '2022-07-26T23:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.098823', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '52.705752', 'effectiveAt': '2022-07-26T22:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.266516', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '20.020000', 'effectiveAt': '2022-07-26T22:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.330712', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '35.276035', 'effectiveAt': '2022-07-26T22:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.090533', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1379.551700', 'effectiveAt': '2022-07-26T22:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.186676', 'rate': '0.0009375000', 'positionSize': '10', 'price': '19.912149', 'effectiveAt': '2022-07-26T21:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.025867', 'rate': '0.0009375000', 'positionSize': '0.02', 'price': '1379.597780', 'effectiveAt': '2022-07-26T21:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.184968', 'rate': '0.0009375000', 'positionSize': '10', 'price': '19.730000', 'effectiveAt': '2022-07-26T20:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.025627', 'rate': '0.0009375000', 'positionSize': '0.02', 'price': '1366.790500', 'effectiveAt': '2022-07-26T20:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.185232', 'rate': '0.0009375000', 'positionSize': '10', 'price': '19.758106', 'effectiveAt': '2022-07-26T19:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.025692', 'rate': '0.0009375000', 'positionSize': '0.02', 'price': '1370.277500', 'effectiveAt': '2022-07-26T19:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '0.196499', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '20.960000', 'effectiveAt': '2022-07-26T00:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-92.517966', 'rate': '0.0009375000', 'positionSize': '68.58', 'price': '1438.988500', 'effectiveAt': '2022-07-26T00:00:00.000Z'}, {'market': 'BTC-USD', 'payment': '0.199799', 'rate': '0.0009375000', 'positionSize': '-0.01', 'price': '21311.914499', 'effectiveAt': '2022-07-26T00:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '0.201843', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '21.530000', 'effectiveAt': '2022-07-25T23:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-95.355332', 'rate': '0.0009375000', 'positionSize': '68.58', 'price': '1483.120000', 'effectiveAt': '2022-07-25T23:00:00.000Z'}, {'market': 'BTC-USD', 'payment': '0.163763', 'rate': '0.0007559558', 'positionSize': '-0.01', 'price': '21663.114999', 'effectiveAt': '2022-07-25T23:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '0.204662', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '21.830625', 'effectiveAt': '2022-07-25T22:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-22.3603', 'rate': '0.0002155027', 'positionSize': '68.58', 'price': '1512.960000', 'effectiveAt': '2022-07-25T22:00:00.000Z'}, {'market': 'BTC-USD', 'payment': '-0.206462', 'rate': '-0.0009375000', 'positionSize': '-0.01', 'price': '22022.629001', 'effectiveAt': '2022-07-25T22:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.099252', 'rate': '0.0007522555', 'positionSize': '6', 'price': '21.990000', 'effectiveAt': '2022-07-25T21:00:00.000Z'}]}}
+2022-07-27T18:11:51.096Z:  LIMIT order created: 5a91c6a822b86d6790bf96ff45deabde2c7e877f71238364e29541b623942b4 market: AVAX-USD side: BUY price: 20.1 amount: 33.2
+2022-07-27T18:11:51.105Z:  LIMIT order created: 5b3c2aed2a38d849e305a0b9b066fe5073d9487c79cc9360afb23f343dae287 market: ETH-USD side: BUY price: 1519.6 amount: 0.09
+2022-07-27T18:11:51.109Z:  LIMIT order created: 1b9b50d39a7a506d8976ea8c967f1f4b654a5ec4dd91cad8cbabf827a695282 market: SOL-USD side: SELL price: 35.684 amount: 40
+2022-07-27T18:11:51.116Z:  LIMIT order created: 61cfec2a5f8b8d4acfe747f72dca79b598bdade2b029153091f74137cd196c5 market: LTC-USD side: SELL price: 53 amount: 4
+2022-07-27T18:11:51.120Z:  get new positions
+2022-07-27T18:11:51.342Z:  active positions:
+2022-07-27T18:11:51.363Z:  {'AVAX-USD': Decimal('-23.2'), 'ETH-USD': Decimal('-0.07'), 'LTC-USD': Decimal('2'), 'SOL-USD': Decimal('30')}
+2022-07-27T18:11:51.368Z:  trade size for this hour:
+2022-07-27T18:11:51.378Z:  {'ETH-USD': Decimal('0.09'), 'AVAX-USD': Decimal('33.2'), 'SOL-USD': Decimal('-40'), 'LTC-USD': Decimal('-4')}
+2022-07-27T18:11:51.382Z:  start trading, cancel all existing orders:
+2022-07-27T18:11:51.771Z:  there are 0 active orders
+2022-07-27T18:11:51.795Z:  ETH-USD's order with starting price 1522.1 and amount0.09 is buy order, fill it
+2022-07-27T18:11:51.798Z:  AVAX-USD's order with starting price 20.13 and amount33.2 is buy order, fill it
+2022-07-27T18:11:51.804Z:  SOL-USD's order with starting price 35.633 and amount-40 is sell order, fill it
+2022-07-27T18:11:51.807Z:  LTC-USD's order with starting price 53.0 and amount-4 is sell order, fill it
+2022-07-27T18:11:51.814Z:  the long required amount is 805.305
+2022-07-27T18:11:51.817Z:  the short required amount is 1637.320
+2022-07-27T18:11:51.825Z:  the total amount required to be filled is 2442.625
+2022-07-27T18:11:51.828Z:  the inital dollar slippage allowed is 0.7327875
+2022-07-27T18:11:51.834Z:  there are 805.305 long left and 1637.320 short left
+2022-07-27T18:11:51.837Z:  there are 32.96883475768897% long left and 67.03116524231105% short left
+2022-07-27T18:11:51.844Z:  long slippage allowrance is 20.383538760002395% of total dollar slippage and short slippage allowrance is 79.6164612399976% of total dollar slippage
+2022-07-27T18:11:51.846Z:  total slippage allowed is 0.7327875$ long slippage allowrance is 0.14936802409095257$ and short slippage allowrance is 0.5834194759090474$
+2022-07-27T18:11:51.852Z:  long slippage allowrance is 0.018548006542980926% and short slippage allowrance is 0.03563258714906356%
+2022-07-27T18:11:51.856Z:  the slippage premium is 0.0016
+2022-07-27T18:11:52.058Z:  the buy order price is 0.0014145199345701907 away from start price
+2022-07-27T18:11:52.066Z:  the buy order of AVAX-USD has a starting price of 20.13,and a order price of 20.10152571371710206063854720
+2022-07-27T18:11:52.069Z:  order price 20.10152571371710206063854720 is less than buy price20.23, place limit buy order of AVAX-USD with price 20.09750540857435864022641949
+2022-07-27T18:11:52.610Z:  the buy order price is 0.0014145199345701907 away from start price
+2022-07-27T18:11:52.627Z:  the buy order of ETH-USD has a starting price of 1522.1,and a order price of 1519.946959207590712692396060
+2022-07-27T18:11:52.648Z:  order price 1519.946959207590712692396060 is less than buy price1522.2, place limit buy order of ETH-USD with price 1519.642969815749194549857581
+2022-07-27T18:11:53.198Z:  the sell order price is 0.0012436741285093643 away from start price
+2022-07-27T18:11:53.209Z:  the sell order of SOL-USD has a starting price of 35.633,and a order price of 35.67731584022117418245100571
+2022-07-27T18:11:53.232Z:  order price 35.67731584022117418245100571 is more than sell price35.533, place limit sell order of SOL-USD with price 35.68445130338921841728749591
+2022-07-27T18:11:53.583Z:  
+2022-07-27T18:19:52.484Z:  opened
+2022-07-27T18:19:52.493Z:  best bid and ask not ready
+2022-07-27T18:19:52.688Z:  successfully subscribed to order book
+2022-07-27T18:19:52.696Z:  best bid and ask not ready
+2022-07-27T18:19:52.862Z:  successfully subscribed to order book
+2022-07-27T18:19:52.872Z:  best bid and ask not ready
+2022-07-27T18:19:53.027Z:  successfully subscribed to order book
+2022-07-27T18:19:53.035Z:  best bid and ask not ready
+2022-07-27T18:19:53.040Z:  successfully subscribed to order book
+2022-07-27T18:19:53.051Z:  get new positions
+2022-07-27T18:19:53.255Z:  active positions:
+2022-07-27T18:19:53.262Z:  {'AVAX-USD': Decimal('-23.2'), 'ETH-USD': Decimal('-0.07'), 'LTC-USD': Decimal('2'), 'SOL-USD': Decimal('30')}
+2022-07-27T18:19:53.265Z:  trade size for this hour:
+2022-07-27T18:19:53.273Z:  {'ETH-USD': Decimal('0.09'), 'AVAX-USD': Decimal('33.2'), 'SOL-USD': Decimal('-40'), 'LTC-USD': Decimal('-4')}
+2022-07-27T18:19:53.276Z:  start trading, cancel all existing orders:
+2022-07-27T18:19:53.493Z:  there are 0 active orders
+2022-07-27T18:19:53.497Z:  ETH-USD's order with starting price 1522.1 and amount0.09 is buy order, fill it
+2022-07-27T18:19:53.504Z:  AVAX-USD's order with starting price 20.13 and amount33.2 is buy order, fill it
+2022-07-27T18:19:53.507Z:  SOL-USD's order with starting price 35.633 and amount-40 is sell order, fill it
+2022-07-27T18:19:53.514Z:  LTC-USD's order with starting price 56.1 and amount-4 is sell order, fill it
+2022-07-27T18:19:53.517Z:  the long required amount is 805.305
+2022-07-27T18:19:53.524Z:  the short required amount is 1649.720
+2022-07-27T18:19:53.527Z:  the total amount required to be filled is 2455.025
+2022-07-27T18:19:53.536Z:  the inital dollar slippage allowed is 0.7365075
+2022-07-27T18:19:53.539Z:  there are 805.305 long left and 1649.720 short left
+2022-07-27T18:19:53.548Z:  there are 32.80231362206087% long left and 67.19768637793912% short left
+2022-07-27T18:19:53.551Z:  long slippage allowrance is 20.16819846313827% of total dollar slippage and short slippage allowrance is 79.83180153686173% of total dollar slippage
+2022-07-27T18:19:53.559Z:  total slippage allowed is 0.7365075$ long slippage allowrance is 0.1485402942958981$ and short slippage allowrance is 0.5879672057041019$
+2022-07-27T18:19:53.563Z:  long slippage allowrance is 0.018445221909201868% and short slippage allowrance is 0.03564042417526016%
+2022-07-27T18:19:53.570Z:  the slippage premium is 0.0016
+2022-07-27T18:19:53.782Z:  the buy order price is 0.0014155477809079814 away from start price
+2022-07-27T18:19:53.795Z:  the buy order of AVAX-USD has a starting price of 20.13,and a order price of 20.10150502317032233586811593
+2022-07-27T18:19:53.799Z:  order price 20.10150502317032233586811593 is less than buy price20.23, place limit buy order of AVAX-USD with price 20.09748472216568827140094231
+2022-07-27T18:19:54.340Z:  the buy order price is 0.0014155477809079814 away from start price
+2022-07-27T18:19:54.356Z:  the buy order of ETH-USD has a starting price of 1522.1,and a order price of 1519.945394722679961620708358
+2022-07-27T18:19:54.359Z:  order price 1519.945394722679961620708358 is less than buy price1522.2, place limit buy order of ETH-USD with price 1519.641405643735425628384216
+2022-07-27T18:19:54.905Z:  the sell order price is 0.0012435957582473984 away from start price
+2022-07-27T18:19:54.919Z:  the sell order of SOL-USD has a starting price of 35.633,and a order price of 35.67731304765362954736511878
+2022-07-27T18:19:54.940Z:  order price 35.67731304765362954736511878 is more than sell price35.533, place limit sell order of SOL-USD with price 35.68444851026316027327459180
+2022-07-27T18:19:55.643Z:  the sell order price is 0.0012435957582473984 away from start price
+2022-07-27T18:19:55.660Z:  the sell order of LTC-USD has a starting price of 56.1,and a order price of 56.16976572203767905052011235
+2022-07-27T18:19:55.663Z:  order price 56.16976572203767905052011235 is more than sell price56.0, place limit sell order of LTC-USD with price 56.18099967518208658633021637
+2022-07-27T18:19:56.191Z:  {'type': 'subscribed', 'connection_id': '2a30b129-1280-4b71-b52e-571cb881d8c4', 'message_id': 5, 'channel': 'v3_accounts', 'id': 'bbeb318c-c78f-5650-b424-97baf6808cdc', 'contents': {'orders': [], 'account': {'starkKey': '0582ec60f94b105c1db95f224862331c1d06c554cccacb73f9fe2260b46b7b4c', 'positionId': '65089', 'equity': '9620.689545', 'freeCollateral': '9438.979233', 'pendingDeposits': '0.000000', 'pendingWithdrawals': '0.000000', 'openPositions': {'AVAX-USD': {'market': 'AVAX-USD', 'status': 'OPEN', 'side': 'LONG', 'size': '23.2', 'maxSize': '23.2', 'entryPrice': '19.942328', 'exitPrice': '0.000000', 'unrealizedPnl': '47.854000', 'realizedPnl': '-6.480053', 'createdAt': '2022-07-26T18:42:43.652Z', 'closedAt': None, 'sumOpen': '23.2', 'sumClose': '0', 'netFunding': '-6.480053'}, 'SOL-USD': {'market': 'SOL-USD', 'status': 'OPEN', 'side': 'SHORT', 'size': '-30', 'maxSize': '-30', 'entryPrice': '35.581667', 'exitPrice': '0.000000', 'unrealizedPnl': '-75.870213', 'realizedPnl': '7.183784', 'createdAt': '2022-07-26T21:05:51.860Z', 'closedAt': None, 'sumOpen': '30', 'sumClose': '0', 'netFunding': '7.183784'}, 'ETH-USD': {'market': 'ETH-USD', 'status': 'OPEN', 'side': 'LONG', 'size': '0.07', 'maxSize': '0.07', 'entryPrice': '1378.085714', 'exitPrice': '0.000000', 'unrealizedPnl': '11.757659', 'realizedPnl': '-2.083104', 'createdAt': '2022-07-26T18:42:44.246Z', 'closedAt': None, 'sumOpen': '0.07', 'sumClose': '0', 'netFunding': '-2.083104'}, 'LTC-USD': {'market': 'LTC-USD', 'status': 'OPEN', 'side': 'SHORT', 'size': '-2', 'maxSize': '-2', 'entryPrice': '52.800000', 'exitPrice': '0.000000', 'unrealizedPnl': '-6.961272', 'realizedPnl': '2.114328', 'createdAt': '2022-07-26T21:07:28.888Z', 'closedAt': None, 'sumOpen': '2', 'sumClose': '0', 'netFunding': '2.114328'}}, 'accountNumber': '0', 'id': 'bbeb318c-c78f-5650-b424-97baf6808cdc', 'quoteBalance': '10255.965183', 'createdAt': '2022-07-21T15:52:16.274Z'}, 'transfers': [{'id': 'd6e2508b-412e-57ac-8ad2-8d6d2bcbe81f', 'type': 'TRANSFER_IN', 'debitAsset': 'USDC', 'creditAsset': 'USDC', 'debitAmount': '0', 'creditAmount': '2000', 'transactionHash': None, 'status': 'CONFIRMED', 'createdAt': '2022-07-26T15:27:35.166Z', 'confirmedAt': '2022-07-26T15:27:35.172Z', 'clientId': '729d0ec5-ad2c-5c62-b55c-1cc78ddd1eda', 'fromAddress': None, 'toAddress': None}, {'id': '10bb81d5-af43-5e51-b667-16aba12c2577', 'type': 'TRANSFER_IN', 'debitAsset': 'USDC', 'creditAsset': 'USDC', 'debitAmount': '0', 'creditAmount': '2000', 'transactionHash': None, 'status': 'CONFIRMED', 'createdAt': '2022-07-26T15:27:32.930Z', 'confirmedAt': '2022-07-26T15:27:32.936Z', 'clientId': 'f8189207-9917-5abf-b48e-cca749e77a91', 'fromAddress': None, 'toAddress': None}, {'id': '4d7151f6-fc5d-5928-a033-795036f56a63', 'type': 'TRANSFER_IN', 'debitAsset': 'USDC', 'creditAsset': 'USDC', 'debitAmount': '0', 'creditAmount': '2000', 'transactionHash': None, 'status': 'CONFIRMED', 'createdAt': '2022-07-26T15:27:30.249Z', 'confirmedAt': '2022-07-26T15:27:30.254Z', 'clientId': 'd5454ab3-43e2-5570-a17c-ffec30bfb96a', 'fromAddress': None, 'toAddress': None}, {'id': '1a0a902a-0955-5398-b3c8-fbf94cda5618', 'type': 'TRANSFER_IN', 'debitAsset': 'USDC', 'creditAsset': 'USDC', 'debitAmount': '0', 'creditAmount': '2000', 'transactionHash': None, 'status': 'CONFIRMED', 'createdAt': '2022-07-26T15:27:27.548Z', 'confirmedAt': '2022-07-26T15:27:27.554Z', 'clientId': 'd3daf618-32d8-5a0b-a3a8-f14f6da83119', 'fromAddress': None, 'toAddress': None}, {'id': 'f0e87045-f955-5b55-909b-25be59d79cf9', 'type': 'TRANSFER_IN', 'debitAsset': 'USDC', 'creditAsset': 'USDC', 'debitAmount': '0', 'creditAmount': '2000', 'transactionHash': None, 'status': 'CONFIRMED', 'createdAt': '2022-07-22T19:43:07.304Z', 'confirmedAt': '2022-07-22T19:43:07.308Z', 'clientId': 'cc4f621a-4cba-5fb2-9848-e90871724460', 'fromAddress': None, 'toAddress': None}, {'id': '34aac054-8f76-5d84-a547-b1cb2b7a1348', 'type': 'TRANSFER_IN', 'debitAsset': 'USDC', 'creditAsset': 'USDC', 'debitAmount': '0', 'creditAmount': '2000', 'transactionHash': None, 'status': 'CONFIRMED', 'createdAt': '2022-07-22T19:43:04.117Z', 'confirmedAt': '2022-07-22T19:43:04.121Z', 'clientId': 'f0e706f6-bebe-5a20-b1d9-f7c49b1f65ab', 'fromAddress': None, 'toAddress': None}, {'id': '5c28a82d-1231-5971-8c91-6174d4e171a0', 'type': 'TRANSFER_IN', 'debitAsset': 'USDC', 'creditAsset': 'USDC', 'debitAmount': '0', 'creditAmount': '2000', 'transactionHash': None, 'status': 'CONFIRMED', 'createdAt': '2022-07-22T19:43:01.629Z', 'confirmedAt': '2022-07-22T19:43:01.635Z', 'clientId': 'adc1f3b6-6f31-5a99-b2d2-fdc08d6a5e85', 'fromAddress': None, 'toAddress': None}, {'id': 'f09620e1-56cb-523c-94c3-e0d602fc13ba', 'type': 'TRANSFER_IN', 'debitAsset': 'USDC', 'creditAsset': 'USDC', 'debitAmount': '0', 'creditAmount': '2000', 'transactionHash': None, 'status': 'CONFIRMED', 'createdAt': '2022-07-21T15:54:56.106Z', 'confirmedAt': '2022-07-21T15:54:56.109Z', 'clientId': 'c014ebb3-7d0e-5334-b1b7-2a7137dd9030', 'fromAddress': None, 'toAddress': None}, {'id': 'ee1eb82d-fdd9-55ba-a8c6-8995e30fb971', 'type': 'TRANSFER_IN', 'debitAsset': 'USDC', 'creditAsset': 'USDC', 'debitAmount': '0', 'creditAmount': '2000', 'transactionHash': None, 'status': 'CONFIRMED', 'createdAt': '2022-07-21T15:52:31.485Z', 'confirmedAt': '2022-07-21T15:52:31.490Z', 'clientId': '2e71d039-94d7-53b7-97e2-36c63381a52e', 'fromAddress': None, 'toAddress': None}], 'fundingPayments': [{'market': 'LTC-USD', 'payment': '0.101834', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '54.311982', 'effectiveAt': '2022-07-27T18:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.380757', 'rate': '0.0009375000', 'positionSize': '19.2', 'price': '21.153179', 'effectiveAt': '2022-07-27T18:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.345187', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '36.820000', 'effectiveAt': '2022-07-27T18:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.098494', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1500.875000', 'effectiveAt': '2022-07-27T18:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.101081', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.910000', 'effectiveAt': '2022-07-27T17:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.279562', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '21.000000', 'effectiveAt': '2022-07-27T17:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.343031', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '36.590000', 'effectiveAt': '2022-07-27T17:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.097537', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1486.291800', 'effectiveAt': '2022-07-27T17:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.101449', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '54.106576', 'effectiveAt': '2022-07-27T16:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.283379', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '21.286719', 'effectiveAt': '2022-07-27T16:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.347718', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '37.090000', 'effectiveAt': '2022-07-27T16:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.097793', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1490.180000', 'effectiveAt': '2022-07-27T16:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.101456', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '54.110000', 'effectiveAt': '2022-07-27T15:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.283089', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '21.264966', 'effectiveAt': '2022-07-27T15:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.347249', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '37.040000', 'effectiveAt': '2022-07-27T15:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.097919', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1492.099300', 'effectiveAt': '2022-07-27T15:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.101456', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '54.110000', 'effectiveAt': '2022-07-27T14:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.284621', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '21.380000', 'effectiveAt': '2022-07-27T14:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.350437', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '37.380000', 'effectiveAt': '2022-07-27T14:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.097884', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1491.567800', 'effectiveAt': '2022-07-27T14:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.101137', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.940000', 'effectiveAt': '2022-07-27T13:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.281293', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '21.130000', 'effectiveAt': '2022-07-27T13:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.347249', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '37.040000', 'effectiveAt': '2022-07-27T13:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.097254', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1481.966800', 'effectiveAt': '2022-07-27T13:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.099862', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.260000', 'effectiveAt': '2022-07-27T12:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.277166', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '20.820000', 'effectiveAt': '2022-07-27T12:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.341209', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '36.395645', 'effectiveAt': '2022-07-27T12:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.09549', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1455.092000', 'effectiveAt': '2022-07-27T12:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.100443', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.570000', 'effectiveAt': '2022-07-27T11:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.278653', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '20.931717', 'effectiveAt': '2022-07-27T11:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.343172', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '36.605100', 'effectiveAt': '2022-07-27T11:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.095577', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1456.414300', 'effectiveAt': '2022-07-27T11:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.100724', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.720000', 'effectiveAt': '2022-07-27T10:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.279296', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '20.980000', 'effectiveAt': '2022-07-27T10:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.344062', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '36.700000', 'effectiveAt': '2022-07-27T10:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.095779', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1459.493300', 'effectiveAt': '2022-07-27T10:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.101006', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.870000', 'effectiveAt': '2022-07-27T09:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.281159', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '21.120000', 'effectiveAt': '2022-07-27T09:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.344531', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '36.750000', 'effectiveAt': '2022-07-27T09:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.095897', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1461.290000', 'effectiveAt': '2022-07-27T09:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.101099', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.920000', 'effectiveAt': '2022-07-27T08:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.280627', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '21.080000', 'effectiveAt': '2022-07-27T08:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.345108', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '36.811523', 'effectiveAt': '2022-07-27T08:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.096134', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1464.910000', 'effectiveAt': '2022-07-27T08:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.100429', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.562669', 'effectiveAt': '2022-07-27T07:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.279029', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '20.960000', 'effectiveAt': '2022-07-27T07:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.345101', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '36.810797', 'effectiveAt': '2022-07-27T07:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.095325', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1452.580500', 'effectiveAt': '2022-07-27T07:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.100667', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.689271', 'effectiveAt': '2022-07-27T06:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.281026', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '21.110000', 'effectiveAt': '2022-07-27T06:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.347437', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '37.060000', 'effectiveAt': '2022-07-27T06:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.095509', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1455.382600', 'effectiveAt': '2022-07-27T06:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.100087', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.380000', 'effectiveAt': '2022-07-27T05:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.272639', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '20.480000', 'effectiveAt': '2022-07-27T05:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.338036', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '36.057217', 'effectiveAt': '2022-07-27T05:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.094324', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1437.326398', 'effectiveAt': '2022-07-27T05:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.099562', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.100000', 'effectiveAt': '2022-07-27T04:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.269178', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '20.220000', 'effectiveAt': '2022-07-27T04:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.33555', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '35.792102', 'effectiveAt': '2022-07-27T04:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.093448', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1423.979376', 'effectiveAt': '2022-07-27T04:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.100331', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.510000', 'effectiveAt': '2022-07-27T03:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.271308', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '20.380000', 'effectiveAt': '2022-07-27T03:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.337031', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '35.950000', 'effectiveAt': '2022-07-27T03:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.094285', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1436.734600', 'effectiveAt': '2022-07-27T03:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.100593', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.650000', 'effectiveAt': '2022-07-27T02:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.272506', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '20.470000', 'effectiveAt': '2022-07-27T02:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.337124', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '35.960000', 'effectiveAt': '2022-07-27T02:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.094126', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1434.302500', 'effectiveAt': '2022-07-27T02:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.100859', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.791565', 'effectiveAt': '2022-07-27T01:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.273838', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '20.570000', 'effectiveAt': '2022-07-27T01:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.337523', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '36.002556', 'effectiveAt': '2022-07-27T01:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.094705', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1443.134300', 'effectiveAt': '2022-07-27T01:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.101118', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.930000', 'effectiveAt': '2022-07-27T00:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.27588', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '20.723387', 'effectiveAt': '2022-07-27T00:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.339325', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '36.194696', 'effectiveAt': '2022-07-27T00:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.09533', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1452.662065', 'effectiveAt': '2022-07-27T00:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.100312', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '53.500000', 'effectiveAt': '2022-07-26T23:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.271655', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '20.406041', 'effectiveAt': '2022-07-26T23:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.336992', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '35.945866', 'effectiveAt': '2022-07-26T23:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.092575', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1410.676000', 'effectiveAt': '2022-07-26T23:00:00.000Z'}, {'market': 'LTC-USD', 'payment': '0.098823', 'rate': '0.0009375000', 'positionSize': '-2', 'price': '52.705752', 'effectiveAt': '2022-07-26T22:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.266516', 'rate': '0.0009375000', 'positionSize': '14.2', 'price': '20.020000', 'effectiveAt': '2022-07-26T22:00:00.000Z'}, {'market': 'SOL-USD', 'payment': '0.330712', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '35.276035', 'effectiveAt': '2022-07-26T22:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.090533', 'rate': '0.0009375000', 'positionSize': '0.07', 'price': '1379.551700', 'effectiveAt': '2022-07-26T22:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.186676', 'rate': '0.0009375000', 'positionSize': '10', 'price': '19.912149', 'effectiveAt': '2022-07-26T21:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.025867', 'rate': '0.0009375000', 'positionSize': '0.02', 'price': '1379.597780', 'effectiveAt': '2022-07-26T21:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.184968', 'rate': '0.0009375000', 'positionSize': '10', 'price': '19.730000', 'effectiveAt': '2022-07-26T20:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.025627', 'rate': '0.0009375000', 'positionSize': '0.02', 'price': '1366.790500', 'effectiveAt': '2022-07-26T20:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.185232', 'rate': '0.0009375000', 'positionSize': '10', 'price': '19.758106', 'effectiveAt': '2022-07-26T19:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-0.025692', 'rate': '0.0009375000', 'positionSize': '0.02', 'price': '1370.277500', 'effectiveAt': '2022-07-26T19:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '0.196499', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '20.960000', 'effectiveAt': '2022-07-26T00:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-92.517966', 'rate': '0.0009375000', 'positionSize': '68.58', 'price': '1438.988500', 'effectiveAt': '2022-07-26T00:00:00.000Z'}, {'market': 'BTC-USD', 'payment': '0.199799', 'rate': '0.0009375000', 'positionSize': '-0.01', 'price': '21311.914499', 'effectiveAt': '2022-07-26T00:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '0.201843', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '21.530000', 'effectiveAt': '2022-07-25T23:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-95.355332', 'rate': '0.0009375000', 'positionSize': '68.58', 'price': '1483.120000', 'effectiveAt': '2022-07-25T23:00:00.000Z'}, {'market': 'BTC-USD', 'payment': '0.163763', 'rate': '0.0007559558', 'positionSize': '-0.01', 'price': '21663.114999', 'effectiveAt': '2022-07-25T23:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '0.204662', 'rate': '0.0009375000', 'positionSize': '-10', 'price': '21.830625', 'effectiveAt': '2022-07-25T22:00:00.000Z'}, {'market': 'ETH-USD', 'payment': '-22.3603', 'rate': '0.0002155027', 'positionSize': '68.58', 'price': '1512.960000', 'effectiveAt': '2022-07-25T22:00:00.000Z'}, {'market': 'BTC-USD', 'payment': '-0.206462', 'rate': '-0.0009375000', 'positionSize': '-0.01', 'price': '22022.629001', 'effectiveAt': '2022-07-25T22:00:00.000Z'}, {'market': 'AVAX-USD', 'payment': '-0.099252', 'rate': '0.0007522555', 'positionSize': '6', 'price': '21.990000', 'effectiveAt': '2022-07-25T21:00:00.000Z'}]}}
+2022-07-27T18:19:56.213Z:  successfully subscribed to account order events
+2022-07-27T18:19:56.222Z:  {'type': 'channel_data', 'connection_id': '2a30b129-1280-4b71-b52e-571cb881d8c4', 'message_id': 6, 'id': 'bbeb318c-c78f-5650-b424-97baf6808cdc', 'channel': 'v3_accounts', 'contents': {'orders': [{'id': '0db67502736f243385f0bff5d099ca623c123e4093f6e871c13e13b15445164', 'status': 'PENDING', 'accountId': 'bbeb318c-c78f-5650-b424-97baf6808cdc', 'clientId': '4231653927303255', 'market': 'AVAX-USD', 'side': 'BUY', 'price': '20.1', 'limitFee': '0.0005', 'size': '33.2', 'remainingSize': '33.2', 'type': 'LIMIT', 'signature': '034fdbf03674f53530fa9c3d18b386224e938802d5fdd60586e981f75fa49da903cf93ed32482dad4a1988fec0910997490294066d968bfdf26bcdacb3431b76', 'expiresAt': '2022-07-27T18:21:03.809Z', 'timeInForce': 'GTT', 'postOnly': True, 'reduceOnly': False, 'country': 'US', 'reduceOnlySize': None, 'triggerPrice': None, 'trailingPercent': None, 'unfillableAt': None, 'client': None, 'cancelReason': None, 'updatedAt': '2022-07-27T18:19:54.111Z', 'createdAt': '2022-07-27T18:19:54.111Z'}]}}
+2022-07-27T18:19:56.230Z:  LIMIT order creating: 0db67502736f243385f0bff5d099ca623c123e4093f6e871c13e13b15445164 market: AVAX-USD side: BUY price: 20.1 amount: 33.2
+2022-07-27T18:19:56.234Z:  {'type': 'channel_data', 'connection_id': '2a30b129-1280-4b71-b52e-571cb881d8c4', 'message_id': 8, 'id': 'bbeb318c-c78f-5650-b424-97baf6808cdc', 'channel': 'v3_accounts', 'contents': {'fills': [], 'positions': [], 'orders': [{'id': '0db67502736f243385f0bff5d099ca623c123e4093f6e871c13e13b15445164', 'clientId': '4231653927303255', 'market': 'AVAX-USD', 'accountId': 'bbeb318c-c78f-5650-b424-97baf6808cdc', 'side': 'BUY', 'size': '33.2', 'remainingSize': '33.2', 'limitFee': '0.0005', 'price': '20.1', 'triggerPrice': None, 'trailingPercent': None, 'type': 'LIMIT', 'status': 'OPEN', 'signature': '034fdbf03674f53530fa9c3d18b386224e938802d5fdd60586e981f75fa49da903cf93ed32482dad4a1988fec0910997490294066d968bfdf26bcdacb3431b76', 'timeInForce': 'GTT', 'postOnly': True, 'cancelReason': None, 'expiresAt': '2022-07-27T18:21:03.809Z', 'unfillableAt': None, 'updatedAt': '2022-07-27T18:19:54.137Z', 'createdAt': '2022-07-27T18:19:54.111Z', 'reduceOnly': False, 'country': 'US', 'client': None, 'reduceOnlySize': None}], 'accounts': [], 'transfers': [], 'fundingPayments': []}}
+2022-07-27T18:19:56.242Z:  LIMIT order created: 0db67502736f243385f0bff5d099ca623c123e4093f6e871c13e13b15445164 market: AVAX-USD side: BUY price: 20.1 amount: 33.2
+2022-07-27T18:19:56.246Z:  {'type': 'channel_data', 'connection_id': '2a30b129-1280-4b71-b52e-571cb881d8c4', 'message_id': 9, 'id': 'bbeb318c-c78f-5650-b424-97baf6808cdc', 'channel': 'v3_accounts', 'contents': {'orders': [{'id': '5604457b3f0defc743bad37836b8a280446e0a6fd41df7c7d1f4b1bcdd9accd', 'status': 'PENDING', 'accountId': 'bbeb318c-c78f-5650-b424-97baf6808cdc', 'clientId': '42561643828123496', 'market': 'ETH-USD', 'side': 'BUY', 'price': '1519.6', 'limitFee': '0.0005', 'size': '0.09', 'remainingSize': '0.09', 'type': 'LIMIT', 'signature': '041a38c715cf124a39e8264b348c8f958cc6fcef2314ff6602aa2d83d29242970680e16990778776029f6a117333d4a4b3d5685c627048fde62276231ada2b32', 'expiresAt': '2022-07-27T18:21:04.365Z', 'timeInForce': 'GTT', 'postOnly': True, 'reduceOnly': False, 'country': 'US', 'reduceOnlySize': None, 'triggerPrice': None, 'trailingPercent': None, 'unfillableAt': None, 'client': None, 'cancelReason': None, 'updatedAt': '2022-07-27T18:19:54.670Z', 'createdAt': '2022-07-27T18:19:54.670Z'}]}}
+2022-07-27T18:19:56.253Z:  LIMIT order creating: 5604457b3f0defc743bad37836b8a280446e0a6fd41df7c7d1f4b1bcdd9accd market: ETH-USD side: BUY price: 1519.6 amount: 0.09
+2022-07-27T18:19:56.257Z:  {'type': 'channel_data', 'connection_id': '2a30b129-1280-4b71-b52e-571cb881d8c4', 'message_id': 11, 'id': 'bbeb318c-c78f-5650-b424-97baf6808cdc', 'channel': 'v3_accounts', 'contents': {'fills': [], 'positions': [], 'orders': [{'id': '5604457b3f0defc743bad37836b8a280446e0a6fd41df7c7d1f4b1bcdd9accd', 'clientId': '42561643828123496', 'market': 'ETH-USD', 'accountId': 'bbeb318c-c78f-5650-b424-97baf6808cdc', 'side': 'BUY', 'size': '0.09', 'remainingSize': '0.09', 'limitFee': '0.0005', 'price': '1519.6', 'triggerPrice': None, 'trailingPercent': None, 'type': 'LIMIT', 'status': 'OPEN', 'signature': '041a38c715cf124a39e8264b348c8f958cc6fcef2314ff6602aa2d83d29242970680e16990778776029f6a117333d4a4b3d5685c627048fde62276231ada2b32', 'timeInForce': 'GTT', 'postOnly': True, 'cancelReason': None, 'expiresAt': '2022-07-27T18:21:04.365Z', 'unfillableAt': None, 'updatedAt': '2022-07-27T18:19:54.698Z', 'createdAt': '2022-07-27T18:19:54.670Z', 'reduceOnly': False, 'country': 'US', 'client': None, 'reduceOnlySize': None}], 'accounts': [], 'transfers': [], 'fundingPayments': []}}
+2022-07-27T18:19:56.264Z:  LIMIT order created: 5604457b3f0defc743bad37836b8a280446e0a6fd41df7c7d1f4b1bcdd9accd market: ETH-USD side: BUY price: 1519.6 amount: 0.09
+2022-07-27T18:19:56.271Z:  {'type': 'channel_data', 'connection_id': '2a30b129-1280-4b71-b52e-571cb881d8c4', 'message_id': 12, 'id': 'bbeb318c-c78f-5650-b424-97baf6808cdc', 'channel': 'v3_accounts', 'contents': {'orders': [{'id': '0bbd78d826294ca24e689f5fd73a12250979910c79dfeb25fa35edde80849af', 'status': 'PENDING', 'accountId': 'bbeb318c-c78f-5650-b424-97baf6808cdc', 'clientId': '1962581976863207', 'market': 'SOL-USD', 'side': 'SELL', 'price': '35.684', 'limitFee': '0.0005', 'size': '40', 'remainingSize': '40', 'type': 'LIMIT', 'signature': '0483096ae08298adabe3523b12def5525c50a3f3b0f923300fac9e2f19b5578b0090593c922c68a8e3f212495fc83ac81eaa51ae093bca80e8e7d0080c3424e4', 'expiresAt': '2022-07-27T18:21:04.945Z', 'timeInForce': 'GTT', 'postOnly': True, 'reduceOnly': False, 'country': 'US', 'reduceOnlySize': None, 'triggerPrice': None, 'trailingPercent': None, 'unfillableAt': None, 'client': None, 'cancelReason': None, 'updatedAt': '2022-07-27T18:19:55.245Z', 'createdAt': '2022-07-27T18:19:55.245Z'}]}}
+2022-07-27T18:19:56.279Z:  LIMIT order creating: 0bbd78d826294ca24e689f5fd73a12250979910c79dfeb25fa35edde80849af market: SOL-USD side: SELL price: 35.684 amount: 40
+2022-07-27T18:19:56.282Z:  {'type': 'channel_data', 'connection_id': '2a30b129-1280-4b71-b52e-571cb881d8c4', 'message_id': 14, 'id': 'bbeb318c-c78f-5650-b424-97baf6808cdc', 'channel': 'v3_accounts', 'contents': {'fills': [], 'positions': [], 'orders': [{'id': '0bbd78d826294ca24e689f5fd73a12250979910c79dfeb25fa35edde80849af', 'clientId': '1962581976863207', 'market': 'SOL-USD', 'accountId': 'bbeb318c-c78f-5650-b424-97baf6808cdc', 'side': 'SELL', 'size': '40', 'remainingSize': '40', 'limitFee': '0.0005', 'price': '35.684', 'triggerPrice': None, 'trailingPercent': None, 'type': 'LIMIT', 'status': 'OPEN', 'signature': '0483096ae08298adabe3523b12def5525c50a3f3b0f923300fac9e2f19b5578b0090593c922c68a8e3f212495fc83ac81eaa51ae093bca80e8e7d0080c3424e4', 'timeInForce': 'GTT', 'postOnly': True, 'cancelReason': None, 'expiresAt': '2022-07-27T18:21:04.945Z', 'unfillableAt': None, 'updatedAt': '2022-07-27T18:19:55.274Z', 'createdAt': '2022-07-27T18:19:55.245Z', 'reduceOnly': False, 'country': 'US', 'client': None, 'reduceOnlySize': None}], 'accounts': [], 'transfers': [], 'fundingPayments': []}}
+2022-07-27T18:19:56.289Z:  LIMIT order created: 0bbd78d826294ca24e689f5fd73a12250979910c79dfeb25fa35edde80849af market: SOL-USD side: SELL price: 35.684 amount: 40
+2022-07-27T18:19:56.298Z:  {'type': 'channel_data', 'connection_id': '2a30b129-1280-4b71-b52e-571cb881d8c4', 'message_id': 15, 'id': 'bbeb318c-c78f-5650-b424-97baf6808cdc', 'channel': 'v3_accounts', 'contents': {'orders': [{'id': '38c02eedff402e968ff43ccd85f2da19251ccd34e7ed36cdb9577de4ea88187', 'status': 'PENDING', 'accountId': 'bbeb318c-c78f-5650-b424-97baf6808cdc', 'clientId': '6481401354632511', 'market': 'LTC-USD', 'side': 'SELL', 'price': '56.2', 'limitFee': '0.0005', 'size': '4', 'remainingSize': '4', 'type': 'LIMIT', 'signature': '017672c09138408dc818a0f10d76cf961ebf4ca3d082e7455c149e9137f8c7fd01491399bab9ef6805c752cc85d19fde9d0dc0bd61ba3ac44fb25d35a6c15a5a', 'expiresAt': '2022-07-27T18:21:05.671Z', 'timeInForce': 'GTT', 'postOnly': True, 'reduceOnly': False, 'country': 'US', 'reduceOnlySize': None, 'triggerPrice': None, 'trailingPercent': None, 'unfillableAt': None, 'client': None, 'cancelReason': None, 'updatedAt': '2022-07-27T18:19:56.147Z', 'createdAt': '2022-07-27T18:19:56.147Z'}]}}
+2022-07-27T18:19:56.301Z:  LIMIT order creating: 38c02eedff402e968ff43ccd85f2da19251ccd34e7ed36cdb9577de4ea88187 market: LTC-USD side: SELL price: 56.2 amount: 4
+2022-07-27T18:19:56.308Z:  {'type': 'channel_data', 'connection_id': '2a30b129-1280-4b71-b52e-571cb881d8c4', 'message_id': 17, 'id': 'bbeb318c-c78f-5650-b424-97baf6808cdc', 'channel': 'v3_accounts', 'contents': {'fills': [], 'positions': [], 'orders': [{'id': '38c02eedff402e968ff43ccd85f2da19251ccd34e7ed36cdb9577de4ea88187', 'clientId': '6481401354632511', 'market': 'LTC-USD', 'accountId': 'bbeb318c-c78f-5650-b424-97baf6808cdc', 'side': 'SELL', 'size': '4', 'remainingSize': '4', 'limitFee': '0.0005', 'price': '56.2', 'triggerPrice': None, 'trailingPercent': None, 'type': 'LIMIT', 'status': 'OPEN', 'signature': '017672c09138408dc818a0f10d76cf961ebf4ca3d082e7455c149e9137f8c7fd01491399bab9ef6805c752cc85d19fde9d0dc0bd61ba3ac44fb25d35a6c15a5a', 'timeInForce': 'GTT', 'postOnly': True, 'cancelReason': None, 'expiresAt': '2022-07-27T18:21:05.671Z', 'unfillableAt': None, 'updatedAt': '2022-07-27T18:19:56.175Z', 'createdAt': '2022-07-27T18:19:56.147Z', 'reduceOnly': False, 'country': 'US', 'client': None, 'reduceOnlySize': None}], 'accounts': [], 'transfers': [], 'fundingPayments': []}}
+2022-07-27T18:19:56.312Z:  LIMIT order created: 38c02eedff402e968ff43ccd85f2da19251ccd34e7ed36cdb9577de4ea88187 market: LTC-USD side: SELL price: 56.2 amount: 4
+2022-07-27T18:20:42.646Z:  
+2022-07-27T18:20:49.833Z:  opened
+2022-07-27T18:20:49.842Z:  best bid and ask not ready
+2022-07-27T18:20:50.033Z:  successfully subscribed to order book
+2022-07-27T18:20:50.047Z:  best bid and ask not ready
+2022-07-27T18:20:50.208Z:  successfully subscribed to order book
+2022-07-27T18:20:50.218Z:  best bid and ask not ready
+2022-07-27T18:20:50.374Z:  successfully subscribed to order book
+2022-07-27T18:20:50.383Z:  best bid and ask not ready
+2022-07-27T18:20:50.388Z:  successfully subscribed to order book
+2022-07-27T18:20:50.395Z:  get new positions
+2022-07-27T18:20:50.627Z:  active positions:
+2022-07-27T18:20:50.631Z:  {'AVAX-USD': Decimal('-23.2'), 'ETH-USD': Decimal('-0.07'), 'LTC-USD': Decimal('2'), 'SOL-USD': Decimal('30')}
+2022-07-27T18:20:50.640Z:  trade size for this hour:
+2022-07-27T18:20:50.643Z:  {'ETH-USD': Decimal('0.09'), 'AVAX-USD': Decimal('33.2'), 'SOL-USD': Decimal('-40'), 'LTC-USD': Decimal('-4')}
+2022-07-27T18:20:50.652Z:  start trading, cancel all existing orders:
+2022-07-27T18:20:50.859Z:  there are 4 active orders
+2022-07-27T18:20:51.073Z:  cancelling all orders...
+2022-07-27T18:20:51.093Z:  successfully subscribed to account order events
+2022-07-27T18:20:51.097Z:  get new positions
+2022-07-27T18:20:51.335Z:  active positions:
+2022-07-27T18:20:51.345Z:  {'AVAX-USD': Decimal('-23.2'), 'ETH-USD': Decimal('-0.07'), 'LTC-USD': Decimal('2'), 'SOL-USD': Decimal('30')}
+2022-07-27T18:20:51.353Z:  trade size for this hour:
+2022-07-27T18:20:51.356Z:  {'ETH-USD': Decimal('0.09'), 'AVAX-USD': Decimal('33.2'), 'SOL-USD': Decimal('-40'), 'LTC-USD': Decimal('-4')}
+2022-07-27T18:20:51.363Z:  start trading, cancel all existing orders:
+2022-07-27T18:20:51.584Z:  there are 0 active orders
+2022-07-27T18:20:51.592Z:  ETH-USD's order with starting price 1522.1 and amount0.09 is buy order, fill it
+2022-07-27T18:20:51.595Z:  AVAX-USD's order with starting price 20.13 and amount33.2 is buy order, fill it
+2022-07-27T18:20:51.604Z:  SOL-USD's order with starting price 35.633 and amount-40 is sell order, fill it
+2022-07-27T18:20:51.607Z:  LTC-USD's order with starting price 56.1 and amount-4 is sell order, fill it
+2022-07-27T18:20:51.616Z:  the long required amount is 805.305
+2022-07-27T18:20:51.619Z:  the short required amount is 1649.720
+2022-07-27T18:20:51.627Z:  the total amount required to be filled is 2455.025
+2022-07-27T18:20:51.635Z:  the inital dollar slippage allowed is 0.7365075
+2022-07-27T18:20:51.638Z:  there are 805.305 long left and 1649.720 short left
+2022-07-27T18:20:51.646Z:  there are 32.80231362206087% long left and 67.19768637793912% short left
+2022-07-27T18:20:51.649Z:  long slippage allowrance is 20.16819846313827% of total dollar slippage and short slippage allowrance is 79.83180153686173% of total dollar slippage
+2022-07-27T18:20:51.658Z:  total slippage allowed is 0.7365075$ long slippage allowrance is 0.1485402942958981$ and short slippage allowrance is 0.5879672057041019$
+2022-07-27T18:20:51.660Z:  long slippage allowrance is 0.018445221909201868% and short slippage allowrance is 0.03564042417526016%
+2022-07-27T18:20:51.668Z:  the slippage premium is 0.0016
+2022-07-27T18:20:51.885Z:  the buy order price is 0.0014155477809079814 away from start price
+2022-07-27T18:20:51.893Z:  the buy order of AVAX-USD has a starting price of 20.13,and a order price of 20.10150502317032233586811593
+2022-07-27T18:20:51.897Z:  order price 20.10150502317032233586811593 is less than buy price20.23, place limit buy order of AVAX-USD with price 20.09748472216568827140094231
+2022-07-27T18:20:52.470Z:  the buy order price is 0.0014155477809079814 away from start price
+2022-07-27T18:20:52.486Z:  the buy order of ETH-USD has a starting price of 1522.1,and a order price of 1519.945394722679961620708358
+2022-07-27T18:20:52.489Z:  order price 1519.945394722679961620708358 is less than buy price1522.2, place limit buy order of ETH-USD with price 1519.641405643735425628384216
+2022-07-27T18:20:53.195Z:  the sell order price is 0.0012435957582473984 away from start price
+2022-07-27T18:20:53.205Z:  the sell order of SOL-USD has a starting price of 35.633,and a order price of 35.67731304765362954736511878
+2022-07-27T18:20:53.214Z:  order price 35.67731304765362954736511878 is more than sell price35.533, place limit sell order of SOL-USD with price 35.68444851026316027327459180
+2022-07-27T18:20:53.739Z:  the sell order price is 0.0012435957582473984 away from start price
+2022-07-27T18:20:53.756Z:  the sell order of LTC-USD has a starting price of 56.1,and a order price of 56.16976572203767905052011235
+2022-07-27T18:20:53.759Z:  order price 56.16976572203767905052011235 is more than sell price56.0, place limit sell order of LTC-USD with price 56.18099967518208658633021637
+2022-07-27T18:20:54.107Z:  LIMIT order cancelled: 0db67502736f243385f0bff5d099ca623c123e4093f6e871c13e13b15445164 market: AVAX-USD side: BUY price: 20.1 amount: 33.2, reason: USER_CANCELED
+2022-07-27T18:20:54.118Z:  LIMIT order cancelled: 5604457b3f0defc743bad37836b8a280446e0a6fd41df7c7d1f4b1bcdd9accd market: ETH-USD side: BUY price: 1519.6 amount: 0.09, reason: USER_CANCELED
+2022-07-27T18:20:54.127Z:  LIMIT order cancelled: 0bbd78d826294ca24e689f5fd73a12250979910c79dfeb25fa35edde80849af market: SOL-USD side: SELL price: 35.684 amount: 40, reason: USER_CANCELED
+2022-07-27T18:20:54.131Z:  LIMIT order cancelled: 38c02eedff402e968ff43ccd85f2da19251ccd34e7ed36cdb9577de4ea88187 market: LTC-USD side: SELL price: 56.2 amount: 4, reason: USER_CANCELED
+2022-07-27T18:20:54.140Z:  LIMIT order creating: 2a8d91ef0752adaa76766998ebcd84fb97a2b1bcfbde07eb56e33ca913e7634 market: AVAX-USD side: BUY price: 20.1 amount: 33.2
+2022-07-27T18:20:54.145Z:  LIMIT order created: 2a8d91ef0752adaa76766998ebcd84fb97a2b1bcfbde07eb56e33ca913e7634 market: AVAX-USD side: BUY price: 20.1 amount: 33.2
+2022-07-27T18:20:54.154Z:  LIMIT order creating: 723fbea2b3bf8000d42bdb3af1f0acad428e7ba2f117cb5fab6642f79fe653e market: ETH-USD side: BUY price: 1519.6 amount: 0.09
+2022-07-27T18:20:54.158Z:  LIMIT order created: 723fbea2b3bf8000d42bdb3af1f0acad428e7ba2f117cb5fab6642f79fe653e market: ETH-USD side: BUY price: 1519.6 amount: 0.09
+2022-07-27T18:20:54.166Z:  LIMIT order creating: 54f409e2e3c2f7df09b3e379989996ea2f650d22b098e5752ee3cb3a4eecf3d market: SOL-USD side: SELL price: 35.684 amount: 40
+2022-07-27T18:20:54.171Z:  LIMIT order created: 54f409e2e3c2f7df09b3e379989996ea2f650d22b098e5752ee3cb3a4eecf3d market: SOL-USD side: SELL price: 35.684 amount: 40
+2022-07-27T18:20:54.179Z:  LIMIT order creating: 6aaf04a2cb5762727b7ee0d4e24a5b09a6f8088fd27292a8dc47b4ff79fdcd2 market: LTC-USD side: SELL price: 56.2 amount: 4
+2022-07-27T18:20:54.184Z:  LIMIT order created: 6aaf04a2cb5762727b7ee0d4e24a5b09a6f8088fd27292a8dc47b4ff79fdcd2 market: LTC-USD side: SELL price: 56.2 amount: 4
+2022-07-27T18:21:52.467Z:  refresh orders, cancel all existing orders
+2022-07-27T18:21:52.493Z:  2022-07-27T18:21:52.493Z
+2022-07-27T18:21:52.715Z:  there are 4 active orders
+2022-07-27T18:21:52.930Z:  cancelling all orders...
+2022-07-27T18:21:52.935Z:  refresh orders, cancel all existing orders
+2022-07-27T18:21:52.942Z:  2022-07-27T18:21:52.942Z
+2022-07-27T18:21:53.149Z:  there are 0 active orders
+2022-07-27T18:21:53.158Z:  there are 805.305 long left and 1649.720 short left
+2022-07-27T18:21:53.162Z:  there are 32.80231362206087% long left and 67.19768637793912% short left
+2022-07-27T18:21:53.171Z:  long slippage allowrance is 20.16819846313827% of total dollar slippage and short slippage allowrance is 79.83180153686173% of total dollar slippage
+2022-07-27T18:21:53.174Z:  total slippage allowed is 0.7365075$ long slippage allowrance is 0.1485402942958981$ and short slippage allowrance is 0.5879672057041019$
+2022-07-27T18:21:53.181Z:  long slippage allowrance is 0.018445221909201868% and short slippage allowrance is 0.03564042417526016%
+2022-07-27T18:21:53.184Z:  the slippage premium is 0.0015
+2022-07-27T18:21:53.415Z:  the buy order price is 0.0013155477809079813 away from start price
+2022-07-27T18:21:53.424Z:  the buy order of AVAX-USD has a starting price of 20.13,and a order price of 20.10351802317032233586811593
+2022-07-27T18:21:53.432Z:  order price 20.10351802317032233586811593 is less than buy price20.23, place limit buy order of AVAX-USD with price 20.09949731956568827140094231
+2022-07-27T18:21:53.964Z:  the buy order price is 0.0013155477809079813 away from start price
+2022-07-27T18:21:53.981Z:  the buy order of ETH-USD has a starting price of 1522.1,and a order price of 1520.097604722679961620708358
+2022-07-27T18:21:53.985Z:  order price 1520.097604722679961620708358 is less than buy price1522.2, place limit buy order of ETH-USD with price 1519.793585201735425628384216
+2022-07-27T18:21:54.510Z:  the sell order price is 0.0011435957582473983 away from start price
+2022-07-27T18:21:54.515Z:  the sell order of SOL-USD has a starting price of 35.633,and a order price of 35.67374974765362954736511878
+2022-07-27T18:21:54.523Z:  order price 35.67374974765362954736511878 is more than sell price35.533, place limit sell order of SOL-USD with price 35.68088449760316027327459180
+2022-07-27T18:21:55.058Z:  the sell order price is 0.0011435957582473983 away from start price
+2022-07-27T18:21:55.073Z:  the sell order of LTC-USD has a starting price of 56.1,and a order price of 56.16415572203767905052011235
+2022-07-27T18:21:55.080Z:  order price 56.16415572203767905052011235 is more than sell price56.0, place limit sell order of LTC-USD with price 56.17538855318208658633021637
+2022-07-27T18:21:55.420Z:  LIMIT order cancelled: 2a8d91ef0752adaa76766998ebcd84fb97a2b1bcfbde07eb56e33ca913e7634 market: AVAX-USD side: BUY price: 20.1 amount: 33.2, reason: USER_CANCELED
+2022-07-27T18:21:55.436Z:  LIMIT order cancelled: 723fbea2b3bf8000d42bdb3af1f0acad428e7ba2f117cb5fab6642f79fe653e market: ETH-USD side: BUY price: 1519.6 amount: 0.09, reason: USER_CANCELED
+2022-07-27T18:21:55.439Z:  LIMIT order cancelled: 54f409e2e3c2f7df09b3e379989996ea2f650d22b098e5752ee3cb3a4eecf3d market: SOL-USD side: SELL price: 35.684 amount: 40, reason: USER_CANCELED
+2022-07-27T18:21:55.446Z:  LIMIT order cancelled: 6aaf04a2cb5762727b7ee0d4e24a5b09a6f8088fd27292a8dc47b4ff79fdcd2 market: LTC-USD side: SELL price: 56.2 amount: 4, reason: USER_CANCELED
+2022-07-27T18:21:55.450Z:  LIMIT order creating: 51330e2af1a49ed3e4fef4118749e81484287a835cc552f9c98b826e1fa938c market: AVAX-USD side: BUY price: 20.1 amount: 33.2
+2022-07-27T18:21:55.459Z:  LIMIT order created: 51330e2af1a49ed3e4fef4118749e81484287a835cc552f9c98b826e1fa938c market: AVAX-USD side: BUY price: 20.1 amount: 33.2
+2022-07-27T18:21:55.462Z:  LIMIT order creating: 0f288a2ea2665db72e29148586872153499736cfdfcfe6f3ccc7c5d936db76a market: ETH-USD side: BUY price: 1519.8 amount: 0.09
+2022-07-27T18:21:55.470Z:  LIMIT order created: 0f288a2ea2665db72e29148586872153499736cfdfcfe6f3ccc7c5d936db76a market: ETH-USD side: BUY price: 1519.8 amount: 0.09
+2022-07-27T18:21:55.473Z:  LIMIT order creating: 09cc7ea325aa3ad13d4c56d21ac4f8cbf9f4c31cb2cdd4c9bb81cc6b865899f market: SOL-USD side: SELL price: 35.681 amount: 40
+2022-07-27T18:21:55.481Z:  LIMIT order created: 09cc7ea325aa3ad13d4c56d21ac4f8cbf9f4c31cb2cdd4c9bb81cc6b865899f market: SOL-USD side: SELL price: 35.681 amount: 40
+2022-07-27T18:21:55.485Z:  LIMIT order creating: 26262e01f725f9d089570dfd0f3b7fff268e5124be177f600dd01e567492221 market: LTC-USD side: SELL price: 56.2 amount: 4
+2022-07-27T18:21:55.493Z:  LIMIT order created: 26262e01f725f9d089570dfd0f3b7fff268e5124be177f600dd01e567492221 market: LTC-USD side: SELL price: 56.2 amount: 4
+2022-07-27T18:22:08.024Z:  LIMIT order filled: 26262e01f725f9d089570dfd0f3b7fff268e5124be177f600dd01e567492221 market: LTC-USD side: SELL price: 56.2 amount: 4, remaining size: 0
+2022-07-27T18:22:08.031Z:  old slippage allowrance is 0.7365075
+2022-07-27T18:22:08.034Z:  order of coin LTC-USD is a MAKER order, with price 56.200000 and open price 56.1 has dollar cost -0.400000 and fee 0.04496, new slippage allowrance is 1.0915475
+2022-07-27T18:22:52.977Z:  refresh orders, cancel all existing orders
+2022-07-27T18:22:52.995Z:  2022-07-27T18:22:52.995Z
+2022-07-27T18:22:53.229Z:  there are 3 active orders
+2022-07-27T18:22:53.445Z:  cancelling all orders...
+2022-07-27T18:22:53.450Z:  refresh orders, cancel all existing orders
+2022-07-27T18:22:53.457Z:  2022-07-27T18:22:53.457Z
+2022-07-27T18:22:53.667Z:  there are 0 active orders
+2022-07-27T18:22:53.684Z:  there are 805.305 long left and 1425.320 short left
+2022-07-27T18:22:53.687Z:  there are 36.10221350518352% long left and 63.89778649481648% short left
+2022-07-27T18:22:53.695Z:  long slippage allowrance is 24.753119622159442% of total dollar slippage and short slippage allowrance is 75.24688037784055% of total dollar slippage
+2022-07-27T18:22:53.700Z:  total slippage allowed is 1.0915475$ long slippage allowrance is 0.27019205840769084$ and short slippage allowrance is 0.8213554415923091$
+2022-07-27T18:22:53.707Z:  long slippage allowrance is 0.03355151879197209% and short slippage allowrance is 0.057626037773433975%
+2022-07-27T18:22:53.710Z:  the slippage premium is 0.0014
+2022-07-27T18:22:53.920Z:  the buy order price is 0.0010644848120802792 away from start price
+2022-07-27T18:22:53.927Z:  the buy order of AVAX-USD has a starting price of 20.13,and a order price of 20.10857192073282398177328320
+2022-07-27T18:22:53.934Z:  order price 20.10857192073282398177328320 is less than buy price20.23, place limit buy order of AVAX-USD with price 20.10455020634867741697692854
+2022-07-27T18:22:54.465Z:  the buy order price is 0.0010644848120802792 away from start price
+2022-07-27T18:22:54.473Z:  the buy order of ETH-USD has a starting price of 1522.1,and a order price of 1520.479747667532607186145771
+2022-07-27T18:22:54.476Z:  order price 1520.479747667532607186145771 is less than buy price1522.2, place limit buy order of ETH-USD with price 1520.175651717999100664708542
+2022-07-27T18:22:55.123Z:  the sell order price is 0.0008237396222656602 away from start price
+2022-07-27T18:22:55.134Z:  the sell order of SOL-USD has a starting price of 35.633,and a order price of 35.66235231396019227104065304
+2022-07-27T18:22:55.142Z:  order price 35.66235231396019227104065304 is more than sell price35.533, place limit sell order of SOL-USD with price 35.66948478442298430949486117
+2022-07-27T18:22:55.798Z:  LIMIT order cancelled: 51330e2af1a49ed3e4fef4118749e81484287a835cc552f9c98b826e1fa938c market: AVAX-USD side: BUY price: 20.1 amount: 33.2, reason: USER_CANCELED
+2022-07-27T18:22:55.819Z:  LIMIT order cancelled: 0f288a2ea2665db72e29148586872153499736cfdfcfe6f3ccc7c5d936db76a market: ETH-USD side: BUY price: 1519.8 amount: 0.09, reason: USER_CANCELED
+2022-07-27T18:22:55.826Z:  LIMIT order cancelled: 09cc7ea325aa3ad13d4c56d21ac4f8cbf9f4c31cb2cdd4c9bb81cc6b865899f market: SOL-USD side: SELL price: 35.681 amount: 40, reason: USER_CANCELED
+2022-07-27T18:22:55.844Z:  LIMIT order creating: 635fe9cf04f7d1210f52768cdcab5905c2352b3575b4a50f0d8db7f6868dbba market: AVAX-USD side: BUY price: 20.1 amount: 33.2
+2022-07-27T18:22:55.850Z:  LIMIT order created: 635fe9cf04f7d1210f52768cdcab5905c2352b3575b4a50f0d8db7f6868dbba market: AVAX-USD side: BUY price: 20.1 amount: 33.2
+2022-07-27T18:22:55.860Z:  LIMIT order creating: 1cbeab12b3761d0a3d8287fdff02520c81dab8389c76e9dae190050bfa029b6 market: ETH-USD side: BUY price: 1520.2 amount: 0.09
+2022-07-27T18:22:55.864Z:  LIMIT order created: 1cbeab12b3761d0a3d8287fdff02520c81dab8389c76e9dae190050bfa029b6 market: ETH-USD side: BUY price: 1520.2 amount: 0.09
+2022-07-27T18:22:55.873Z:  LIMIT order created: 3f02f1efeb33320fa5307736377e26a103cb78dc6436f6b9744f0fce3bd445a market: SOL-USD side: SELL price: 35.669 amount: 40
+2022-07-27T18:22:55.876Z:  LIMIT order creating: 3f02f1efeb33320fa5307736377e26a103cb78dc6436f6b9744f0fce3bd445a market: SOL-USD side: SELL price: 35.669 amount: 40
+2022-07-27T18:23:32.618Z:  
+2022-07-27T18:23:38.835Z:  opened
+2022-07-27T18:23:38.845Z:  best bid and ask not ready
+2022-07-27T18:23:39.044Z:  successfully subscribed to order book of AVAX-USD
+2022-07-27T18:23:39.048Z:  best bid and ask not ready
+2022-07-27T18:23:39.213Z:  successfully subscribed to order book of ETH-USD
+2022-07-27T18:23:39.217Z:  best bid and ask not ready
+2022-07-27T18:23:39.384Z:  successfully subscribed to order book of SOL-USD
+2022-07-27T18:23:39.390Z:  best bid and ask not ready
+2022-07-27T18:23:39.402Z:  successfully subscribed to order book of LTC-USD
+2022-07-27T18:23:39.407Z:  get new positions
+2022-07-27T18:23:39.650Z:  active positions:
+2022-07-27T18:23:39.661Z:  {'AVAX-USD': Decimal('-23.2'), 'ETH-USD': Decimal('-0.07'), 'LTC-USD': Decimal('6'), 'SOL-USD': Decimal('30')}
+2022-07-27T18:23:39.670Z:  trade size for this hour:
+2022-07-27T18:23:39.673Z:  {'ETH-USD': Decimal('0.09'), 'AVAX-USD': Decimal('33.2'), 'SOL-USD': Decimal('-40'), 'LTC-USD': Decimal('-8')}
+2022-07-27T18:23:39.679Z:  start trading, cancel all existing orders:
+2022-07-27T18:23:40.088Z:  there are 3 active orders
+2022-07-27T18:23:40.317Z:  cancelling all orders...
+2022-07-27T18:23:40.334Z:  successfully subscribed to account order events
+2022-07-27T18:23:40.347Z:  get new positions
+2022-07-27T18:23:40.724Z:  active positions:
+2022-07-27T18:23:40.738Z:  {'AVAX-USD': Decimal('-23.2'), 'ETH-USD': Decimal('-0.07'), 'LTC-USD': Decimal('6'), 'SOL-USD': Decimal('30')}
+2022-07-27T18:23:40.742Z:  trade size for this hour:
+2022-07-27T18:23:40.751Z:  {'ETH-USD': Decimal('0.09'), 'AVAX-USD': Decimal('33.2'), 'SOL-USD': Decimal('-40'), 'LTC-USD': Decimal('-8')}
+2022-07-27T18:23:40.754Z:  start trading, cancel all existing orders:
+2022-07-27T18:23:40.984Z:  there are 0 active orders
+2022-07-27T18:23:40.995Z:  ETH-USD's order with starting price 1522.1 and amount0.09 is buy order, fill it
+2022-07-27T18:23:41.002Z:  AVAX-USD's order with starting price 20.13 and amount33.2 is buy order, fill it
+2022-07-27T18:23:41.005Z:  SOL-USD's order with starting price 35.633 and amount-40 is sell order, fill it
+2022-07-27T18:23:41.012Z:  LTC-USD's order with starting price 56.1 and amount-8 is sell order, fill it
+2022-07-27T18:23:41.015Z:  the long required amount is 805.305
+2022-07-27T18:23:41.021Z:  the short required amount is 1874.120
+2022-07-27T18:23:41.025Z:  the total amount required to be filled is 2679.425
+2022-07-27T18:23:41.033Z:  the inital dollar slippage allowed is 0.8038275
+2022-07-27T18:23:41.036Z:  there are 805.305 long left and 1874.120 short left
+2022-07-27T18:23:41.044Z:  there are 30.055142427946297% long left and 69.9448575720537% short left
+2022-07-27T18:23:41.046Z:  long slippage allowrance is 16.85990714172162% of total dollar slippage and short slippage allowrance is 83.14009285827838% of total dollar slippage
+2022-07-27T18:23:41.053Z:  total slippage allowed is 0.8038275$ long slippage allowrance is 0.13552457007962238$ and short slippage allowrance is 0.6683029299203777$
+2022-07-27T18:23:41.057Z:  long slippage allowrance is 0.016828974125284505% and short slippage allowrance is 0.03565955914884734%
+2022-07-27T18:23:41.064Z:  the slippage premium is 0.0016
+2022-07-27T18:23:41.264Z:  the buy order price is 0.0014317102587471549 away from start price
+2022-07-27T18:23:41.277Z:  the buy order of AVAX-USD has a starting price of 20.13,and a order price of 20.10117967249141977064025426
+2022-07-27T18:23:41.281Z:  order price 20.10117967249141977064025426 is less than buy price20.23, place limit buy order of AVAX-USD with price 20.09715943655692148668612621
+2022-07-27T18:23:41.833Z:  the buy order price is 0.0014317102587471549 away from start price
+2022-07-27T18:23:41.849Z:  the buy order of ETH-USD has a starting price of 1522.1,and a order price of 1519.920793815160955434253900
+2022-07-27T18:23:41.853Z:  order price 1519.920793815160955434253900 is less than buy price1522.2, place limit buy order of ETH-USD with price 1519.616809656397923243167049
+2022-07-27T18:23:42.429Z:  the sell order price is 0.0012434044085115267 away from start price
+2022-07-27T18:23:42.438Z:  the sell order of SOL-USD has a starting price of 35.633,and a order price of 35.67730622928849123005188141
+2022-07-27T18:23:42.442Z:  order price 35.67730622928849123005188141 is more than sell price35.533, place limit sell order of SOL-USD with price 35.68444169053434892829789179
+2022-07-27T18:23:42.997Z:  the sell order price is 0.0012434044085115267 away from start price
+2022-07-27T18:23:43.007Z:  the sell order of LTC-USD has a starting price of 56.1,and a order price of 56.16975498731749664653300444
+2022-07-27T18:23:43.016Z:  order price 56.16975498731749664653300444 is more than sell price56.0, place limit sell order of LTC-USD with price 56.18098893831496014586231104
+2022-07-27T18:23:43.371Z:  LIMIT order cancelled: 635fe9cf04f7d1210f52768cdcab5905c2352b3575b4a50f0d8db7f6868dbba market: AVAX-USD side: BUY price: 20.1 amount: 33.2, reason: USER_CANCELED
+2022-07-27T18:23:43.387Z:  LIMIT order cancelled: 1cbeab12b3761d0a3d8287fdff02520c81dab8389c76e9dae190050bfa029b6 market: ETH-USD side: BUY price: 1520.2 amount: 0.09, reason: USER_CANCELED
+2022-07-27T18:23:43.391Z:  LIMIT order cancelled: 3f02f1efeb33320fa5307736377e26a103cb78dc6436f6b9744f0fce3bd445a market: SOL-USD side: SELL price: 35.669 amount: 40, reason: USER_CANCELED
+2022-07-27T18:23:43.399Z:  LIMIT order creating: 333afc1cd94fac19ea1fc42a1acb21c2ad80f14a9fac0ed0f90c11fb0499d4f market: AVAX-USD side: BUY price: 20.1 amount: 33.2
+2022-07-27T18:23:43.404Z:  LIMIT order created: 333afc1cd94fac19ea1fc42a1acb21c2ad80f14a9fac0ed0f90c11fb0499d4f market: AVAX-USD side: BUY price: 20.1 amount: 33.2
+2022-07-27T18:23:43.412Z:  LIMIT order creating: 5b578b40fb8c993f7deb706c25b08cc92507ce13d863855cf55c37d26a71c27 market: ETH-USD side: BUY price: 1519.6 amount: 0.09
+2022-07-27T18:23:43.416Z:  LIMIT order created: 5b578b40fb8c993f7deb706c25b08cc92507ce13d863855cf55c37d26a71c27 market: ETH-USD side: BUY price: 1519.6 amount: 0.09
+2022-07-27T18:23:43.424Z:  LIMIT order creating: 7e9cc487d6198b6049526822ef9d572fb00200b35df3f171d53d050ff9e93f0 market: SOL-USD side: SELL price: 35.684 amount: 40
+2022-07-27T18:23:43.433Z:  LIMIT order created: 7e9cc487d6198b6049526822ef9d572fb00200b35df3f171d53d050ff9e93f0 market: SOL-USD side: SELL price: 35.684 amount: 40
+2022-07-27T18:23:43.437Z:  LIMIT order creating: 796daf48b1dad419e480a67051fbce54ec3b17d2d4cbefc531d33f9fa3d6c1d market: LTC-USD side: SELL price: 56.2 amount: 8
+2022-07-27T18:23:43.445Z:  LIMIT order created: 796daf48b1dad419e480a67051fbce54ec3b17d2d4cbefc531d33f9fa3d6c1d market: LTC-USD side: SELL price: 56.2 amount: 8
+2022-07-27T18:23:52.857Z:  
