@@ -1,5 +1,6 @@
 from configs.basic_config import coin_list
 from decimal import Decimal
+from trading_log.log import record_logs
 
 class OrderbookParser():
     def __init__(self, order_book_msg, best_bid_ask, order_book, offsets):
@@ -14,6 +15,7 @@ class OrderbookParser():
         #parse the inital subscribe message
         if self.order_book_msg['type'] == 'subscribed':
             coin = self.order_book_msg['id']
+            record_logs(f'successfully subscribed to order book of {coin}')
             # create book and offset for each of the coin
             coin_order_dict = {'bids': {}, 'asks': {}}
             coin_offset_dict = {}
@@ -68,6 +70,10 @@ class OrderbookParser():
         # get the best bid and ask price
         best_bid = max(self.order_book[self.coin]['bids'].keys())
         best_ask = min(self.order_book[self.coin]['asks'].keys())
+        ##--------IMPORTANT below code for testnet only--------##
+        #mid_price = min(best_bid, best_ask)
+        #best_bid = mid_price - Decimal('0.1')
+        #best_ask = mid_price + Decimal('0.1')
+        ##-----------------------------------------------------##
         self.best_bid_ask[self.coin] = {'best_bid': best_bid, 'best_ask': best_ask}
         return self.best_bid_ask
-
